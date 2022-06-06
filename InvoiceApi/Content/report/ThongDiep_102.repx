@@ -1,0 +1,1506 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</AssemblyFullName>
+///   <AssemblyLocation>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v16.1\v4.0_16.1.2.0__b88d1754d700e49a\DevExpress.XtraReports.v16.1.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization>en-US</Localization>
+///   <Version>16.1</Version>
+///   <Resources>
+///     <Resource Name="XtraReportSerialization.XtraReport">
+/// zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAARAAAAAAAAAFBBRFBBRFDyD26CaN1ql2eEw7JYQ/61gzrxtkhecsFEbkHqx36671zL3gU+GDEMNeNbHtBACCYY2vo6PHp6YQfskGbp4b50eY55dRgBAAAGAwAAXAAAAHoBAACWAgAAMQAAAAkCAAA6AgAA2AEAAGMCAAAAAAAApwEAAOcAAABFAQAAuAAAAOECAACNAAAAZwQAACwkAHQAaABpAHMALgBEAGEAdABhAFMAbwB1AHIAYwBlAFMAYwBoAGUAbQBhAAAAAAAmJAB0AGgAaQBz
+/// AC4AUwBjAHIAaQBwAHQAcwBTAG8AdQByAGMAZQCkIQAALGMAYQBsAF8ARABpAGEARABhAG4AaAAuAEUAeABwAHIAZQBzAHMAaQBvAG4ASSQAACZjAGEAbABfAE4AZwBhAHkALgBFAHgAcAByAGUAcwBzAGkAbwBuAHAlAAAqYwBhAGwAXwBOAGcAYQB5AF8AQQAuAEUAeABwAHIAZQBzAHMAaQBvAG4AvSYAACxjAGEAbABfAE4AbwBpAEQAdQBuAGcALgBFAHgAcAByAGUAcwBzAGkAbwBuAI4nAAAoYwBhAGwAXwBjAGEAbgBjAHUALgBFAHgAcAByAGUAcwBzAGkAbwBuADUqAAAwYwBhAGwAXwBjAGEAbgBjAHUAXwBrAHQAbgAuAEUAeABwAHIAZQBzAHMAaQBvAG4A9SsAAChjAGEAbABfAG4AZwBhAHkAQQAuAEUAeABwAHIAZQBzAHMAaQBvAG4AvC0AACxjAGEAbABfAG4A
+/// ZwBhAHkAXwB0AGIALgBFAHgAcAByAGUAcwBzAGkAbwBuAI0uAAAsYwBhAGwAXwBuAGcAYQB5AF8AdABuAC4ARQB4AHAAcgBlAHMAcwBpAG8AbgC0LwAALGMAYQBsAF8AbgBnAGEAeQBfAHQAdgAuAEUAeABwAHIAZQBzAHMAaQBvAG4AATEAACRjAGEAbABfAHQAaAAzAC4ARQB4AHAAcgBlAHMAcwBpAG8AbgAZMgAALmMAYQBsAF8AdABoAG8AbgBnAGIAYQBvAC4ARQB4AHAAcgBlAHMAcwBpAG8AbgCxNAAARnAAaQBjAHQAQwBoAGUAawAuAEkAbQBhAGcAZQAmAFMAeQBzAHQAZQBtAC4ARAByAGEAdwBpAG4AZwAuAEkAbQBhAGcAZQDtNQAAIHQAYQBiAGwAZQBDAGUAbABsADIANQAuAFQAZQB4AHQALjsAACB0AGEAYgBsAGUAQwBlAGwAbAAzADUALgBUAGUAeAB0AK88
+/// AAABoUM8P3htbCB2ZXJzaW9uPSIxLjAiPz4NCjx4czpzY2hlbWEgaWQ9IlREaWVwIiB4bWxucz0iIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtbXNkYXRhIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0iVERpZXAiIG1zZGF0YTpJc0RhdGFTZXQ9InRydWUiIG1zZGF0YTpMb2NhbGU9ImVuLVVTIj4NCiAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICA8eHM6Y2hvaWNlIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiPg0KICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJUVENodW5nIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQog
+/// ICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlBCYW4iIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJNTkd1aSIgdHlwZT0ieHM6c3RyaW5nIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9Ik1OTmhhbiIgdHlwZT0ieHM6c3RyaW5nIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9Ik1MVERpZXAiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJNVERpZXAiIHR5cGU9InhzOnN0
+/// cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJNVERUQ2hpZXUiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJNU1QiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTTHVvbmciIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICA8L3hzOmVsZW1lbnQ+DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IkRMaWV1Ij4NCiAgICAgICAgICA8
+/// eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlRCYW8iIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiPg0KICAgICAgICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iRExUQmFvIiBtaW5PY2N1cnM9IjAiIG1heE9jY3Vycz0idW5ib3VuZGVkIj4NCiAgICAgICAgICAgICAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICAgICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgICAgICAgICAgICAg
+/// IDx4czplbGVtZW50IG5hbWU9IlBCYW4iIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJNU28iIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJUZW4iIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTbyIgdHlwZT0ieHM6c3RyaW5nIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkREYW5oIiB0eXBlPSJ4czpzdHJp
+/// bmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iTlRCYW8iIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJNU1QiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJUTk5UIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVFRLaGFpIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAg
+/// ICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iTUdERFR1IiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVEdHdWkiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJUSG9wIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVEdOaGFuIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFt
+/// ZT0iRFNMREtDTmhhbiIgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJMRG8iIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+/// ICAgPHhzOmVsZW1lbnQgbmFtZT0iTUxvaSIgdHlwZT0ieHM6c3RyaW5nIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9Ik1UYSIgdHlwZT0ieHM6c3RyaW5nIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgICAgICAg
+/// ICAgICAgICAgPC94czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgPC94czplbGVtZW50Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICAgICAgICA8L3hzOmVsZW1lbnQ+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkRTQ0tTIiBtaW5PY2N1cnM9IjAiIG1heE9jY3Vycz0idW5ib3VuZGVkIj4NCiAgICAgICAgICAgICAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICAgICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgICAgICAgICAgICAgIDx4
+/// czplbGVtZW50IG5hbWU9IkNRVCIgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTaWduYXR1cmUiIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAg
+/// ICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU2lnbmF0dXJlVmFsdWUiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTaWduZWRJbmZvIiBtaW5PY2N1cnM9IjAiIG1heE9jY3Vycz0idW5ib3VuZGVkIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNhbm9uaWNh
+/// bGl6YXRpb25NZXRob2QiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTaWduYXR1cmVNZXRob2QiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJSZWZlcmVuY2UiIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+/// ICAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iRGlnZXN0TWV0aG9kIiB0eXBlPSJ4czpzdHJpbmciIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iRGlnZXN0VmFsdWUiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hz
+/// OmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOmVsZW1lbnQ+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iS2V5SW5mbyIgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+/// ICAgICAgICAgICAgPHhzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJYNTA5RGF0YSIgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8
+/// eHM6ZWxlbWVudCBuYW1lPSJYNTA5U3ViamVjdE5hbWUiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJYNTA5Q2VydGlmaWNhdGUiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOmVsZW1lbnQ+
+/// DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iT2JqZWN0IiBtaW5PY2N1cnM9IjAiIG1heE9jY3Vycz0idW5ib3VuZGVkIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8
+/// eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNpZ25hdHVyZVByb3BlcnRpZXMiIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU2lnbmF0dXJlUHJvcGVydHkiIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1
+/// bmJvdW5kZWQiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU2lnbmluZ1RpbWUiIHR5cGU9InhzOnN0cmluZyIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+/// ICAgICAgICAgICAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOmVsZW1lbnQ+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgICAgICAgICAgICAg
+/// ICAgICAgICAgICAgICAgPC94czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC94czplbGVtZW50Pg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOmVsZW1lbnQ+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6ZWxlbWVudD4NCiAg
+/// ICAgICAgICAgICAgICAgICAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgICAgICAgICAgPC94czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgICAgPC94czplbGVtZW50Pg0KICAgICAgICAgICAgICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICA8L3hzOmVsZW1lbnQ+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgIDwveHM6Y2hvaWNlPg0KICAgIDwveHM6Y29tcGxleFR5cGU+DQogIDwveHM6ZWxlbWVudD4NCjwveHM6c2NoZW1hPgGiBXVzaW5nIFN5
+/// c3RlbS5EYXRhOw0KdXNpbmcgU3lzdGVtLlhtbDsNCg0KcHJpdmF0ZSB2b2lkIHRibF9UaWVwTmhhbl9ES19CZWZvcmVQcmludChvYmplY3Qgc2VuZGVyLCBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5QcmludEV2ZW50QXJncyBlKSB7DQoJRGF0YVNldCBkcyA9IHRoaXMuRGF0YVNvdXJjZSBhcyBEYXRhU2V0Ow0KCS8qdmFyIExUYmFvID0gZHMuVGFibGVzWyJETFRCYW8iXS5Sb3dzWzBdWyJUSG9wIl0uVG9TdHJpbmcoKTsqLw0KCXZhciBUSG9wPWRzLlRhYmxlc1swXS5Sb3dzWzBdWyJ0SG9wIl0uVG9TdHJpbmcoKTsNCgkJDQoJaWYgKFRIb3A9PSIxIikNCiAgICAgIHsNCgkJdGJsX1RpZXBOaGFuX0RLLlZpc2libGUgPSB0cnVlOw0KCQkJCQ0KCX0NCglpZiAo
+/// VEhvcD09IjIiKQ0KICAgICAgew0KCQl0YmxfS1ROX0RLLlZpc2libGUgPSB0cnVlOw0KCQl0YmxfY2hpdGlldC5WaXNpYmxlID0gdHJ1ZTsNCgkJDQoJfQ0KCWlmIChUSG9wPT0iMyIpDQogICAgICB7DQoJCXRibF9UTl9URC5WaXNpYmxlID0gdHJ1ZTsNCgkJdGJsX2NoaXRpZXQuVmlzaWJsZSA9IHRydWU7DQoJCQ0KCX0NCglpZiAoVEhvcD09IjQiKQ0KICAgICAgew0KCQlidGxfS1ROX1RELlZpc2libGUgPSB0cnVlOw0KCQl0YmxfY2hpdGlldC5WaXNpYmxlID0gdHJ1ZTsNCgkJDQoJfQ0KDQoNCgkNCg0KfQ0KAaQCQ29uY2F0KCdTYXUga2hpIHhlbSB4w6l0IFRow7RuZyBiw6FvIGjDs2EgxJHGoW4gxJFp4buHbiB04butIGPDsyBzYWkgc8OzdCBuZ8OgeSwg
+/// bmfDoHkgJywgSWlmKEdldERheShbTlRCYW9dKSA8IDEwLENvbmNhdCgnMCcsR2V0RGF5KFtOVEJhb10pKSAgLEdldERheShbTlRCYW9dKSApLCcgdGjDoW5nICcsSWlmKEdldE1vbnRoKFtOVEJhb10pIDwgMTAsQ29uY2F0KCcwJyxHZXRNb250aChbTlRCYW9dKSkgICwgR2V0TW9udGgoW05UQmFvXSkpLCcgbsSDbSAnLEdldFllYXIoW05UQmFvXSksICcsIGPhu6dhOiAnKQHKAkNvbmNhdCgnQ8ahIHF1YW4gVGh14bq/IMSRw6MgdGnhur9wIG5o4bqtbiBUaMO0bmcgYsOhbyBow7NhIMSRxqFuIMSRaeG7h24gdOG7rSBjw7Mgc2FpIHPDs3QgbmfDoHksIG5nw6B5ICcsIElpZihHZXREYXkoW1RHTmhhbl0pIDwgMTAsQ29uY2F0KCcwJyxHZXREYXkoW1RHTmhhbl0p
+/// KSAgLEdldERheShbVEdOaGFuXSkgKSwnIHRow6FuZyAnLElpZihHZXRNb250aChbVEdOaGFuXSkgPCAxMCxDb25jYXQoJzAnLEdldE1vbnRoKFtUR05oYW5dKSkgICwgR2V0TW9udGgoW1RHTmhhbl0pKSwnIG7Eg20gJyxHZXRZZWFyKFtUR05oYW5dKSwgJywgY+G7p2EgcXXDvSBjw7RuZyB0eSAnKQHOAUNvbmNhdCgnTmfDoHkgJywgSWlmKEdldERheShbTlRCYW9dKSA8IDEwLENvbmNhdCgnMCcsR2V0RGF5KFtOVEJhb10pKSAgLEdldERheShbTlRCYW9dKSApLCcgdGjDoW5nICcsSWlmKEdldE1vbnRoKFtOVEJhb10pIDwgMTAsQ29uY2F0KCcwJyxHZXRNb250aChbTlRCYW9dKSkgICwgR2V0TW9udGgoW05UQmFvXSkpLCcgbsSDbSAnLEdldFllYXIoW05UQmFv
+/// XSkpAaQFSWlmKFtUVFhOQ1FUXSA9PSAnMScsIENvbmNhdCgnVMOgaSBraG/huqNuIMSRw6MgxJHGsOG7o2MgZ+G7rWkgxJHhur9uIGjhu5lwIHRoxrAgxJFp4buHbiB04butIGPhu6dhIG5nxrDhu51pIG7hu5lwIHRodeG6vy/EkWnhu4duIHRob+G6oWkgbGnDqm4gaOG7hywgxJHhu4Egbmdo4buLIG5nxrDhu51pIG7hu5lwIHRodeG6vyB0aOG7sWMgaGnhu4duIGtoYWkgYsOhbyBjw6FjIHRow7RuZyB0aW4gbGnDqm4gcXVhbiB0aGVvIG7hu5lpIGR1bmcgaMaw4bubbmcgZOG6q24gY+G7p2EgY8ahIHF1YW4gdGh14bq/IHThuqFpIHRoxrAgxJFp4buHbiB04butIG7DoHknKSAgLCBJaWYoW1RUWE5DUVRdID09ICcyJywgIENvbmNhdCgnQ8ahIHF1YW4gdGh14bq/
+/// IGtow7RuZyBjaOG6pXAgbmjhuq1uIG5nxrDhu51pIG7hu5lwIHRodeG6vyBz4butIGThu6VuZyBow7NhIMSRxqFuIMSRaeG7h24gdOG7rS4gTMO9IGRvOiAnICxbTVRhXSApLCBDb25jYXQoJ0PGoSBxdWFuIHRodeG6vyB0aMO0bmcgYsOhbyBuZ8aw4budaSBu4buZcCB0aHXhur8gxJHEg25nIGvDvSBnaWFvIGThu4tjaCBz4butIGThu6VuZyBow7NhIMSRxqFuIMSRaeG7h24gdOG7rSBtaeG7hW4gcGjDrSBxdWEgdOG7lSBjaOG7qWMgY3VuZyBj4bqlcCBk4buLY2ggduG7pSBow7NhIMSRxqFuIMSRaeG7h24gdOG7rTogJywgW01UYV0gKSkgKQG9A0NvbmNhdCgnQ8SDbiBj4bupICcsW1Rlbl0sJyBj4bunYSBuZ8aw4budaSBu4buZcCB0aHXhur8gKE5OVCkgZ+G7
+/// rWkgdOG7m2kgY8ahIHF1YW4gdGh14bq/IGzDumMgJyAsQ29uY2F0KEdldEhvdXIoW1RHR3VpXSksJyBnaeG7nSAnLCBHZXRNaW51dGUoW1RHR3VpXSksICcgcGjDunQgJywnbmfDoHkgJywgSWlmKEdldERheShbVEdHdWldKSA8IDEwLENvbmNhdCgnMCcsR2V0RGF5KFtUR0d1aV0pKSAgLEdldERheShbVEdHdWldKSApLCcgdGjDoW5nICcsSWlmKEdldE1vbnRoKFtUR0d1aV0pIDwgMTAsQ29uY2F0KCcwJyxHZXRNb250aChbVEdHdWldKSkgICwgR2V0TW9udGgoW1RHR3VpXSkpLCcgbsSDbSAnLEdldFllYXIoW1RHR3VpXSkpLCAnICwgY8ahIHF1YW4gdGh14bq/IHRp4bq/cCBuaOG6rW4gJyxbVFRLaGFpXSwnIGPhu6dhIE5OVCwgY+G7pSB0aOG7gyBuaMawIHNh
+/// dTogJykBxANDb25jYXQoJ0PEg24gY+G7qSAnLFtUZW5dLCcgY+G7p2EgbmfGsOG7nWkgbuG7mXAgdGh14bq/IChOTlQpIGfhu61pIHThu5tpIGPGoSBxdWFuIHRodeG6vyBsw7pjICcgLENvbmNhdChHZXRIb3VyKFtUR0d1aV0pLCcgZ2nhu50gJywgR2V0TWludXRlKFtUR0d1aV0pLCAnIHBow7p0ICcsJ25nw6B5ICcsIElpZihHZXREYXkoW1RHR3VpXSkgPCAxMCxDb25jYXQoJzAnLEdldERheShbVEdHdWldKSkgICxHZXREYXkoW1RHR3VpXSkgKSwnIHRow6FuZyAnLElpZihHZXRNb250aChbVEdHdWldKSA8IDEwLENvbmNhdCgnMCcsR2V0TW9udGgoW1RHR3VpXSkpICAsIEdldE1vbnRoKFtUR0d1aV0pKSwnIG7Eg20gJyxHZXRZZWFyKFtUR0d1aV0pKSwgJyAs
+/// IGPGoSBxdWFuIHRodeG6vyBraMO0bmcgdGnhur9wIG5o4bqtbiAnLFtUVEtoYWldLCcgY+G7p2EgTk5ULCBj4bulIHRo4buDIG5oxrAgc2F1OiAnKQHOAUNvbmNhdCgnTmfDoHkgJywgSWlmKEdldERheShbTlRCYW9dKSA8IDEwLENvbmNhdCgnMCcsR2V0RGF5KFtOVEJhb10pKSAgLEdldERheShbTlRCYW9dKSApLCcgdGjDoW5nICcsSWlmKEdldE1vbnRoKFtOVEJhb10pIDwgMTAsQ29uY2F0KCcwJyxHZXRNb250aChbTlRCYW9dKSkgICwgR2V0TW9udGgoW05UQmFvXSkpLCcgbsSDbSAnLEdldFllYXIoW05UQmFvXSkpAaQCQ29uY2F0KCdTYXUga2hpIHhlbSB4w6l0IFRow7RuZyBiw6FvIGjDs2EgxJHGoW4gxJFp4buHbiB04butIGPDsyBzYWkgc8OzdCBuZ8Og
+/// eSwgbmfDoHkgJywgSWlmKEdldERheShbTlRCYW9dKSA8IDEwLENvbmNhdCgnMCcsR2V0RGF5KFtOVEJhb10pKSAgLEdldERheShbTlRCYW9dKSApLCcgdGjDoW5nICcsSWlmKEdldE1vbnRoKFtOVEJhb10pIDwgMTAsQ29uY2F0KCcwJyxHZXRNb250aChbTlRCYW9dKSkgICwgR2V0TW9udGgoW05UQmFvXSkpLCcgbsSDbSAnLEdldFllYXIoW05UQmFvXSksICcsIGPhu6dhOiAnKQHKAkNvbmNhdCgnQ8ahIHF1YW4gVGh14bq/IMSRw6MgdGnhur9wIG5o4bqtbiBUaMO0bmcgYsOhbyBow7NhIMSRxqFuIMSRaeG7h24gdOG7rSBjw7Mgc2FpIHPDs3QgbmfDoHksIG5nw6B5ICcsIElpZihHZXREYXkoW1RHTmhhbl0pIDwgMTAsQ29uY2F0KCcwJyxHZXREYXkoW1RHTmhh
+/// bl0pKSAgLEdldERheShbVEdOaGFuXSkgKSwnIHRow6FuZyAnLElpZihHZXRNb250aChbVEdOaGFuXSkgPCAxMCxDb25jYXQoJzAnLEdldE1vbnRoKFtUR05oYW5dKSkgICwgR2V0TW9udGgoW1RHTmhhbl0pKSwnIG7Eg20gJyxHZXRZZWFyKFtUR05oYW5dKSwgJywgY+G7p2EgcXXDvSBjw7RuZyB0eSAnKQGVAkNvbmNhdCgnU2F1IGtoaSB4ZW0geMOpdCBUaMO0bmcgYsOhbyBow7NhIMSRxqFuIMSRaeG7h24gdOG7rSBjw7Mgc2FpIHPDs3QgbmfDoHkgJywgSWlmKEdldERheShbTlRCYW9dKSA8IDEwLENvbmNhdCgnMCcsR2V0RGF5KFtOVEJhb10pKSAgLEdldERheShbTlRCYW9dKSApLCcgLyAnLElpZihHZXRNb250aChbTlRCYW9dKSA8IDEwLENvbmNhdCgnMCcs
+/// R2V0TW9udGgoW05UQmFvXSkpICAsIEdldE1vbnRoKFtOVEJhb10pKSwnIC8gJyxHZXRZZWFyKFtOVEJhb10pLCAnLCBj4bunYTogJykBlQVDb25jYXQoJ1Thu50ga2hhaSDEkcSDbmcga8O9IHRoYXkgxJHhu5VpIHRow7RuZyB0aW4gc+G7rSBk4bulbmcgaMOzYSDEkcahbiDEkWnhu4duIHThu60vYmnDqm4gbGFpIMSRaeG7h24gdOG7rSBj4bunYSBuZ8aw4budaSBu4buZcCB0aHXhur8gxJHDoyDEkcaw4bujYyBjxqEgcXVhbiB0aHXhur8gdGnhur9wIG5o4bqtbiB2w6BvIGzDumMgJywgQ29uY2F0KEdldEhvdXIoW1RHTmhhbl0pLCcgZ2nhu50gJywgR2V0TWludXRlKFtUR05oYW5dKSwgJyBwaMO6dCAnLCduZ8OgeSAnLCBJaWYoR2V0RGF5KFtUR05oYW5dKSA8
+/// IDEwLENvbmNhdCgnMCcsR2V0RGF5KFtUR05oYW5dKSkgICxHZXREYXkoW1RHTmhhbl0pICksJyB0aMOhbmcgJyxJaWYoR2V0TW9udGgoW1RHTmhhbl0pIDwgMTAsQ29uY2F0KCcwJyxHZXRNb250aChbVEdOaGFuXSkpICAsIEdldE1vbnRoKFtUR05oYW5dKSksJyBuxINtICcsR2V0WWVhcihbVEdOaGFuXSkpLCAnIFThu50ga2hhaSDEkcSDbmcga8O9IHRoYXkgxJHhu5VpIHRow7RuZyB0aW4gc+G7rSBk4bulbmcgaMOzYSDEkcahbiDEkWnhu4duIHThu60vYmnDqm4gbGFpIMSRaeG7h24gdOG7rSBj4bunYSBuZ8aw4budaSBu4buZcCB0aHXhur8gc+G6vSDEkcaw4bujYyBjxqEgcXVhbiB0aHXhur8gdGnhur9wIHThu6VjIGtp4buDbSB0cmEuJyApAbkCQ29uY2F0
+/// KCdW4buBIHZp4buHYyAnLElpZihbVEhvcF09PTEsJyB0aeG6v3Agbmjhuq1uIHThu50ga2hhaSDEkcSDbmcga8O9ICcsSWlmKFtUSG9wXT09MiwnIGtow7RuZyB0aeG6v3Agbmjhuq1uIHThu50ga2hhaSDEkcSDbmcga8O9ICcsSWlmKFtUSG9wXT09MywnIHRp4bq/cCBuaOG6rW4gdOG7nSBraGFpIHRoYXkgxJHhu5VpICcsJyBraMO0bmcgdGnhur9wIG5o4bqtbiB04budIGtoYWkgdGhheSDEkeG7lWkgJyAgKSkpLCd0aMO0bmcgdGluIHPhu60gZOG7pW5nIGjDs2EgxJHGoW4gxJFp4buHbiB04butL2Jpw6puIGxhaSDEkWnhu4duIHThu60nKSA8BQAAiVBORw0KGgoAAAANSUhEUgAAAE4AAABgCAYAAACzDERbAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvAAA
+/// DrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAQdEVYdFRpdGxlAENoZWNrIG1hcmvCRSlyAAAEnUlEQVR4Xu2a3WtURxTAx1UTo2s+a9MkilVB0BbaotK+WOhDSxFUEIKgCKKg9B/ogy8Kgi/BajXRNd8JfqVBLCrxO/gZ7YNoDFHjBxqjRhtNG1tNpJrjnMm5ml2i1JN7987dnB8Mu3fm3H34cWbmzL2rQGAh4piIOCYijomIYyLimIg4JiKOiYhjIuKYiDgmIo6JiGMi4piIOCYijomIYyLimIg4JiKOiYhjIuKYiDgmIo6JiGMi4piIOCYijomIYyLimAxZcc1PrsLlx0109eEMSXHz6vKhumUnXfEYUuL2364D9YuCxkFkmsOQEffd7z+CKlDQ9eIp9QyOhBd38v5pUL8qGLZlDPW4Q0KLW3p8Baj1CjJKc6nHPRJSXPfLHsipnAxq83DIrphI
+/// ve6ScOKOtdWD2jQMhm8dq6V9Sr3uk1DiVp1fY9azlOJMT6ZnfxJGnNk1C5MgXDIOwsXjqNc7EkLchOqpMCKSCqml2RDaGqZebwm0uK4XXTAykgaji7MgvTRHbwYjoLPnLxr1lsCKu9bZYkRhlmWU5Zq17cbft2jUewIprqH9vBGFWZZZlgdqo4JDd4/SaHwInLiDrUeMKMyyrPLxuvQIQcHFjTQaPwIlrvbmXiMNswyl4TFq0dGlNBpfAiNu9/VaMz0daVirTdv5FY3Gn0CI++3mnqhMSyv9BJIjGTTqD9aLO9h6OEqa2Qx05t152koR/mC1uDMPGkBteCsNm9ocgvIr1RThH9aKa+68ajLL2T2xjdSng/l1+RThL1aKe/T8T1PcYp3mSMNCN7UkmyL8x0pxoS1hI8qR5qxr9/99QBH+Y504fByETzgcaVllel0rTIINlwopwg6sEjd91wwYtS3jrTTd8AD/Zc03FGEPgxa37/YB+jY4
+/// Fh5ZYk4C/aWZw7te62zElYzLqZgE6y4U0NWHg2dNfD/QXxo27NvRspui7MK1qZocSdeL+hioubGHev4fZ9vPRRW4TsMpOqt2NkXZh6trHK5PapOCvKopcOLeKep9N93/dZup2L9Ww9Y3RUM6orcv0EJcFdfzsgdU0SidLR+Zafb5rpnmzy3vAnfMcMnHUdKw4S5a1BShKDtxVRzy8NmjNxU/lhX4/du930PH8w6K6GPOgQXmJBArbawWOWX7ZxRlL66LQxo7mt48bMwszzPrFQrMP7zYjJddqTJTMVaaU+i2/dNm4mzGE3GIeaqhJTiLPn7iGogvivEzdjPAhi9eltf/RL9gN56JQ0qaK/rk6axz5KCwgaSZDaEohe60H0/FIav/WGs2ilhRsQ03hMpr2+ku+/FcHLKsfqXOpuQBhWHDA31u5WSKDgZxEYf8sG+uecs+kDiczpc6LlNkMIibOOSLmq8haVt6lDTccbFcCRpxFYdMqJoK
+/// KVoWSsNNArPtcfcTGg0OcReHYJGLxXGyzr4lx5ZTb7DwRVxv7ytzNMNse9Vr73n0ffgiDml/9hB+blhFV8HDN3FBR8QxEXFMRBwTEcdExDERcUxEHBMRx0TEMRFxTEQcExHHRMQxEXFMRBwTEcdExDERcUxEHBMRx0TEMRFxTEQcC4DXqHpfX1/h0i4AAAAASUVORK5CYIIB/gJUcm9uZyB0aOG7nWkgZ2lhbiAwMSBuZ8OgeSBsw6BtIHZp4buHYyBr4buDIHThu6sgbmfDoHkgY8ahIHF1YW4gdGh14bq/IHRp4bq/cCBuaOG6rW4gVOG7nSBraGFpIGdoaSB0csOqbiB0aMO0bmcgYsOhbyBuw6B5LCBjxqEgcXVhbiB0aHXhur8gc+G6vSB0cuG6oyBUaMO0bmcgYsOhbyBN4bqrdSAwMiBiYW4gaMOgbmgga8OobSB0aGVvIE5naOG7iyDEkeG7i25oIHPhu5EgLi4uLiB24buB
+/// IHZp4buHYyBjaOG6pXAgbmjhuq1uIGhv4bq3YyBraMO0bmcgY2jhuqVwIG5o4bqtbiDEkcSDbmcga8O9IGPhu6dhIE5OVCwgdHLGsOG7nW5nIGjhu6NwIGtow7RuZyBjaOG6pXAgbmjhuq1uLCBjxqEgcXVhbiB0aHXhur8gbsOqdSByw7UgbMO9IGRvIGtow7RuZyBjaOG6pXAgbmjhuq1uAZMDVHJvbmcgdGjhu51pIGdpYW4gMDEgbmfDoHkgbMOgbSB2aeG7h2Mga+G7gyB04burIG5nw6B5IGPGoSBxdWFuIHRodeG6vyB0aeG6v3Agbmjhuq1uIFThu50ga2hhaSBnaGkgdHLDqm4gdGjDtG5nIGLDoW8gbsOgeSwgY8ahIHF1YW4gdGh14bq/IHPhur0gdHLhuqMgVGjDtG5nIGLDoW8gTeG6q3UgMDEvVEItxJBLxJBUIGJhbiBow6BuaCBrw6htIHRoZW8gTmdo4buLIMSR
+/// 4buLbmggc+G7kSAxMjMvMjAyMC9OxJAtQ1AgduG7gSB2aeG7h2MgY2jhuqVwIG5o4bqtbiBob+G6t2Mga2jDtG5nIGNo4bqlcCBuaOG6rW4gxJHEg25nIGvDvSBj4bunYSBOTlQsIHRyxrDhu51uZyBo4bujcCBraMO0bmcgY2jhuqVwIG5o4bqtbiwgY8ahIHF1YW4gdGh14bq/IG7DqnUgcsO1IGzDvSBkbyBraMO0bmcgY2jhuqVwIG5o4bqtbg==</Resource>
+///   </Resources>
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class XtraReport : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.TopMarginBand topMarginBand1;
+        private DevExpress.XtraReports.UI.DetailBand detailBand1;
+        private DevExpress.XtraReports.UI.XRTable tbl_chitiet;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow15;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell37;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell13;
+        private DevExpress.XtraReports.UI.BottomMarginBand bottomMarginBand1;
+        private DevExpress.XtraReports.UI.ReportHeaderBand ReportHeader;
+        private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
+        private DevExpress.XtraReports.UI.XRLabel label2;
+        private DevExpress.XtraReports.UI.XRLabel label11;
+        private DevExpress.XtraReports.UI.XRTable btl_KTN_TD;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow20;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell26;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow21;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell27;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell28;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow22;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell29;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell30;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow23;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell31;
+        private DevExpress.XtraReports.UI.XRTable tbl_TN_TD;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow16;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell18;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow17;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell19;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell22;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow18;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell23;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell24;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow19;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell34;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow25;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell35;
+        private DevExpress.XtraReports.UI.XRTable tbl_KTN_DK;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow4;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell5;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow12;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell6;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell7;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow13;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell8;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell9;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow14;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell10;
+        private DevExpress.XtraReports.UI.XRTable tbl_TiepNhan_DK;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow3;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell4;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow8;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell15;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell16;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow2;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell2;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell3;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow9;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell20;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow10;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell25;
+        private DevExpress.XtraReports.UI.XRLine line1;
+        private DevExpress.XtraReports.UI.XRTable table1;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow1;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell1;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell11;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell12;
+        private DevExpress.XtraReports.UI.XRLabel label20;
+        private DevExpress.XtraReports.UI.XRLabel label17;
+        private DevExpress.XtraReports.UI.XRLabel label41;
+        private DevExpress.XtraReports.UI.XRLabel label40;
+        private DevExpress.XtraReports.UI.XRLabel label4;
+        private DevExpress.XtraReports.UI.XRLabel label1;
+        private DevExpress.XtraReports.UI.ReportFooterBand ReportFooter;
+        private DevExpress.XtraReports.UI.XRTable TblKyHoaDon;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow11;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell36;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow7;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell32;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell14;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow24;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell33;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell55;
+        private DevExpress.XtraReports.UI.XRLabel label12;
+        private DevExpress.XtraReports.UI.XRTable table4;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow5;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell17;
+        private DevExpress.XtraReports.UI.XRTableRow tableRow6;
+        private DevExpress.XtraReports.UI.XRTableCell tableCell21;
+        private DevExpress.XtraReports.UI.XRPictureBox pictChek;
+        private DevExpress.XtraReports.UI.PageFooterBand PageFooter;
+        private DevExpress.XtraReports.UI.CalculatedField cal_DiaDanh;
+        private DevExpress.XtraReports.UI.CalculatedField cal_Ngay;
+        private DevExpress.XtraReports.UI.CalculatedField cal_ChapThuan;
+        private DevExpress.XtraReports.UI.CalculatedField cal_NoiDung;
+        private DevExpress.XtraReports.UI.CalculatedField cal_ngay_tb;
+        private DevExpress.XtraReports.UI.CalculatedField cal_ngay_tn;
+        private DevExpress.XtraReports.UI.CalculatedField cal_ngay_tv;
+        private DevExpress.XtraReports.UI.CalculatedField cal_ngayA;
+        private DevExpress.XtraReports.UI.CalculatedField cal_cancu;
+        private DevExpress.XtraReports.UI.CalculatedField cal_tcqt;
+        private DevExpress.XtraReports.UI.CalculatedField cal_Ngay_A;
+        private DevExpress.XtraReports.UI.CalculatedField cal_ngay_lap;
+        private DevExpress.XtraReports.UI.CalculatedField cal_TD_lap;
+        private DevExpress.XtraReports.UI.CalculatedField cal_ngay_ky;
+        private DevExpress.XtraReports.UI.CalculatedField cal_thongbao;
+        private DevExpress.XtraReports.UI.CalculatedField cal_th3;
+        private DevExpress.XtraReports.UI.CalculatedField cal_cancu_ktn;
+        private DevExpress.XtraReports.UI.CalculatedField cal_kinh_gui;
+        private System.Resources.ResourceManager _resources;
+        private string _resourceString;
+        public XtraReport() {
+            this._resourceString = DevExpress.XtraReports.Serialization.XRResourceManager.GetResourceFor("XtraReportSerialization.XtraReport");
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(this._resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            this.topMarginBand1 = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.detailBand1 = new DevExpress.XtraReports.UI.DetailBand();
+            this.bottomMarginBand1 = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.ReportHeader = new DevExpress.XtraReports.UI.ReportHeaderBand();
+            this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
+            this.ReportFooter = new DevExpress.XtraReports.UI.ReportFooterBand();
+            this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
+            this.tbl_chitiet = new DevExpress.XtraReports.UI.XRTable();
+            this.tableRow15 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableCell37 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell13 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.label2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label11 = new DevExpress.XtraReports.UI.XRLabel();
+            this.btl_KTN_TD = new DevExpress.XtraReports.UI.XRTable();
+            this.tbl_TN_TD = new DevExpress.XtraReports.UI.XRTable();
+            this.tbl_KTN_DK = new DevExpress.XtraReports.UI.XRTable();
+            this.tbl_TiepNhan_DK = new DevExpress.XtraReports.UI.XRTable();
+            this.line1 = new DevExpress.XtraReports.UI.XRLine();
+            this.table1 = new DevExpress.XtraReports.UI.XRTable();
+            this.label20 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label17 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label41 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label40 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.tableRow20 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow21 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow22 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow23 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableCell26 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell27 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell28 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell29 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell30 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell31 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableRow16 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow17 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow18 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow19 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow25 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableCell18 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell19 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell22 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell23 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell24 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell34 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell35 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableRow4 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow12 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow13 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow14 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableCell5 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell6 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell7 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell8 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell9 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell10 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableRow3 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow8 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow2 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow9 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow10 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableCell4 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell15 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell16 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell2 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell3 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell20 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell25 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableRow1 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableCell1 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell11 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell12 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.TblKyHoaDon = new DevExpress.XtraReports.UI.XRTable();
+            this.label12 = new DevExpress.XtraReports.UI.XRLabel();
+            this.table4 = new DevExpress.XtraReports.UI.XRTable();
+            this.pictChek = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.tableRow11 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow7 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow24 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableCell36 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell32 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell14 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell33 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell55 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableRow5 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableRow6 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.tableCell17 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.tableCell21 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.cal_DiaDanh = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_Ngay = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_ChapThuan = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_NoiDung = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_ngay_tb = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_ngay_tn = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_ngay_tv = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_ngayA = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_cancu = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_tcqt = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_Ngay_A = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_ngay_lap = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_TD_lap = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_ngay_ky = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_thongbao = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_th3 = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_cancu_ktn = new DevExpress.XtraReports.UI.CalculatedField();
+            this.cal_kinh_gui = new DevExpress.XtraReports.UI.CalculatedField();
+            ((System.ComponentModel.ISupportInitialize)(this.tbl_chitiet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btl_KTN_TD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbl_TN_TD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbl_KTN_DK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbl_TiepNhan_DK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.table1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TblKyHoaDon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.table4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // topMarginBand1
+            // 
+            this.topMarginBand1.Dpi = 100F;
+            this.topMarginBand1.HeightF = 49F;
+            this.topMarginBand1.Name = "topMarginBand1";
+            // 
+            // detailBand1
+            // 
+            this.detailBand1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.tbl_chitiet});
+            this.detailBand1.Dpi = 100F;
+            this.detailBand1.HeightF = 25F;
+            this.detailBand1.Name = "detailBand1";
+            // 
+            // bottomMarginBand1
+            // 
+            this.bottomMarginBand1.Dpi = 100F;
+            this.bottomMarginBand1.HeightF = 43F;
+            this.bottomMarginBand1.Name = "bottomMarginBand1";
+            // 
+            // ReportHeader
+            // 
+            this.ReportHeader.Dpi = 100F;
+            this.ReportHeader.HeightF = 0F;
+            this.ReportHeader.Name = "ReportHeader";
+            // 
+            // PageHeader
+            // 
+            this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label2,
+                        this.label11,
+                        this.btl_KTN_TD,
+                        this.tbl_TN_TD,
+                        this.tbl_KTN_DK,
+                        this.tbl_TiepNhan_DK,
+                        this.line1,
+                        this.table1,
+                        this.label20,
+                        this.label17,
+                        this.label41,
+                        this.label40,
+                        this.label4,
+                        this.label1});
+            this.PageHeader.Dpi = 100F;
+            this.PageHeader.HeightF = 371.7502F;
+            this.PageHeader.Name = "PageHeader";
+            // 
+            // ReportFooter
+            // 
+            this.ReportFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.TblKyHoaDon,
+                        this.label12,
+                        this.table4,
+                        this.pictChek});
+            this.ReportFooter.Dpi = 100F;
+            this.ReportFooter.HeightF = 194.1666F;
+            this.ReportFooter.Name = "ReportFooter";
+            // 
+            // PageFooter
+            // 
+            this.PageFooter.Dpi = 100F;
+            this.PageFooter.HeightF = 19.79167F;
+            this.PageFooter.Name = "PageFooter";
+            // 
+            // tbl_chitiet
+            // 
+            this.tbl_chitiet.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.tbl_chitiet.Dpi = 100F;
+            this.tbl_chitiet.LocationFloat = new DevExpress.Utils.PointFloat(8.166647F, 0F);
+            this.tbl_chitiet.Name = "tbl_chitiet";
+            this.tbl_chitiet.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
+            this.tbl_chitiet.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+                        this.tableRow15});
+            this.tbl_chitiet.SizeF = new System.Drawing.SizeF(781.6472F, 25F);
+            this.tbl_chitiet.StylePriority.UseBorders = false;
+            this.tbl_chitiet.StylePriority.UsePadding = false;
+            this.tbl_chitiet.StylePriority.UseTextAlignment = false;
+            this.tbl_chitiet.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tbl_chitiet.Visible = false;
+            // 
+            // tableRow15
+            // 
+            this.tableRow15.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell37,
+                        this.tableCell13});
+            this.tableRow15.Dpi = 100F;
+            this.tableRow15.Name = "tableRow15";
+            this.tableRow15.Weight = 1D;
+            // 
+            // tableCell37
+            // 
+            this.tableCell37.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.tableCell37.Dpi = 100F;
+            this.tableCell37.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell37.Name = "tableCell37";
+            this.tableCell37.StylePriority.UseBorders = false;
+            this.tableCell37.StylePriority.UseFont = false;
+            this.tableCell37.StylePriority.UseTextAlignment = false;
+            this.tableCell37.Text = "- Lý do không tiếp nhận:";
+            this.tableCell37.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell37.Weight = 0.93175713676307592D;
+            // 
+            // tableCell13
+            // 
+            this.tableCell13.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.tableCell13.Dpi = 100F;
+            this.tableCell13.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell13.Name = "tableCell13";
+            this.tableCell13.StylePriority.UseBorders = false;
+            this.tableCell13.StylePriority.UseFont = false;
+            this.tableCell13.StylePriority.UseTextAlignment = false;
+            this.tableCell13.Text = "[MTa]";
+            this.tableCell13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell13.Weight = 3.7546838929073392D;
+            // 
+            // label2
+            // 
+            this.label2.Dpi = 100F;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
+            this.label2.LocationFloat = new DevExpress.Utils.PointFloat(85.50003F, 151.2084F);
+            this.label2.Multiline = true;
+            this.label2.Name = "label2";
+            this.label2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label2.SizeF = new System.Drawing.SizeF(630.2083F, 31.25F);
+            this.label2.StylePriority.UseFont = false;
+            this.label2.StylePriority.UseTextAlignment = false;
+            this.label2.Text = "THÔNG BÁO\r\n";
+            this.label2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label11
+            // 
+            this.label11.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.cal_thongbao")});
+            this.label11.Dpi = 100F;
+            this.label11.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
+            this.label11.LocationFloat = new DevExpress.Utils.PointFloat(85.29169F, 187.0001F);
+            this.label11.Multiline = true;
+            this.label11.Name = "label11";
+            this.label11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label11.SizeF = new System.Drawing.SizeF(630.2083F, 17.70833F);
+            this.label11.StylePriority.UseFont = false;
+            this.label11.StylePriority.UseTextAlignment = false;
+            this.label11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // btl_KTN_TD
+            // 
+            this.btl_KTN_TD.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.btl_KTN_TD.Dpi = 100F;
+            this.btl_KTN_TD.LocationFloat = new DevExpress.Utils.PointFloat(8.083313F, 271.7502F);
+            this.btl_KTN_TD.Name = "btl_KTN_TD";
+            this.btl_KTN_TD.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
+            this.btl_KTN_TD.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+                        this.tableRow20,
+                        this.tableRow21,
+                        this.tableRow22,
+                        this.tableRow23});
+            this.btl_KTN_TD.Scripts.OnBeforePrint = "tbl_TiepNhan_DK_BeforePrint";
+            this.btl_KTN_TD.SizeF = new System.Drawing.SizeF(781.7305F, 100F);
+            this.btl_KTN_TD.StylePriority.UseBorders = false;
+            this.btl_KTN_TD.StylePriority.UsePadding = false;
+            this.btl_KTN_TD.StylePriority.UseTextAlignment = false;
+            this.btl_KTN_TD.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.btl_KTN_TD.Visible = false;
+            // 
+            // tbl_TN_TD
+            // 
+            this.tbl_TN_TD.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.tbl_TN_TD.Dpi = 100F;
+            this.tbl_TN_TD.LocationFloat = new DevExpress.Utils.PointFloat(8.083313F, 246.7501F);
+            this.tbl_TN_TD.Name = "tbl_TN_TD";
+            this.tbl_TN_TD.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
+            this.tbl_TN_TD.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+                        this.tableRow16,
+                        this.tableRow17,
+                        this.tableRow18,
+                        this.tableRow19,
+                        this.tableRow25});
+            this.tbl_TN_TD.Scripts.OnBeforePrint = "tbl_TiepNhan_DK_BeforePrint";
+            this.tbl_TN_TD.SizeF = new System.Drawing.SizeF(781.7305F, 125.0001F);
+            this.tbl_TN_TD.StylePriority.UseBorders = false;
+            this.tbl_TN_TD.StylePriority.UsePadding = false;
+            this.tbl_TN_TD.StylePriority.UseTextAlignment = false;
+            this.tbl_TN_TD.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tbl_TN_TD.Visible = false;
+            // 
+            // tbl_KTN_DK
+            // 
+            this.tbl_KTN_DK.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.tbl_KTN_DK.Dpi = 100F;
+            this.tbl_KTN_DK.LocationFloat = new DevExpress.Utils.PointFloat(8.083313F, 271.7502F);
+            this.tbl_KTN_DK.Name = "tbl_KTN_DK";
+            this.tbl_KTN_DK.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
+            this.tbl_KTN_DK.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+                        this.tableRow4,
+                        this.tableRow12,
+                        this.tableRow13,
+                        this.tableRow14});
+            this.tbl_KTN_DK.Scripts.OnBeforePrint = "tbl_KHL_BeforePrint";
+            this.tbl_KTN_DK.SizeF = new System.Drawing.SizeF(781.7305F, 100F);
+            this.tbl_KTN_DK.StylePriority.UseBorders = false;
+            this.tbl_KTN_DK.StylePriority.UsePadding = false;
+            this.tbl_KTN_DK.StylePriority.UseTextAlignment = false;
+            this.tbl_KTN_DK.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tbl_KTN_DK.Visible = false;
+            // 
+            // tbl_TiepNhan_DK
+            // 
+            this.tbl_TiepNhan_DK.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.tbl_TiepNhan_DK.Dpi = 100F;
+            this.tbl_TiepNhan_DK.LocationFloat = new DevExpress.Utils.PointFloat(8.083313F, 246.7501F);
+            this.tbl_TiepNhan_DK.Name = "tbl_TiepNhan_DK";
+            this.tbl_TiepNhan_DK.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
+            this.tbl_TiepNhan_DK.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+                        this.tableRow3,
+                        this.tableRow8,
+                        this.tableRow2,
+                        this.tableRow9,
+                        this.tableRow10});
+            this.tbl_TiepNhan_DK.Scripts.OnBeforePrint = "tbl_TiepNhan_DK_BeforePrint";
+            this.tbl_TiepNhan_DK.SizeF = new System.Drawing.SizeF(781.7305F, 125.0001F);
+            this.tbl_TiepNhan_DK.StylePriority.UseBorders = false;
+            this.tbl_TiepNhan_DK.StylePriority.UsePadding = false;
+            this.tbl_TiepNhan_DK.StylePriority.UseTextAlignment = false;
+            this.tbl_TiepNhan_DK.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tbl_TiepNhan_DK.Visible = false;
+            // 
+            // line1
+            // 
+            this.line1.Dpi = 100F;
+            this.line1.LocationFloat = new DevExpress.Utils.PointFloat(111.5417F, 84.1666F);
+            this.line1.Name = "line1";
+            this.line1.SizeF = new System.Drawing.SizeF(60F, 12.66668F);
+            // 
+            // table1
+            // 
+            this.table1.Dpi = 100F;
+            this.table1.LocationFloat = new DevExpress.Utils.PointFloat(22.35365F, 97.16669F);
+            this.table1.Name = "table1";
+            this.table1.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+                        this.tableRow1});
+            this.table1.SizeF = new System.Drawing.SizeF(240.0243F, 26F);
+            this.table1.StylePriority.UseTextAlignment = false;
+            this.table1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label20
+            // 
+            this.label20.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.cal_Ngay_A")});
+            this.label20.Dpi = 100F;
+            this.label20.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Italic);
+            this.label20.LocationFloat = new DevExpress.Utils.PointFloat(376.0138F, 110.1667F);
+            this.label20.Name = "label20";
+            this.label20.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label20.SizeF = new System.Drawing.SizeF(305.2086F, 26.04167F);
+            this.label20.StylePriority.UseFont = false;
+            this.label20.StylePriority.UseTextAlignment = false;
+            this.label20.Text = "…………., ngày……..tháng……năm…..";
+            this.label20.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label17
+            // 
+            this.label17.Dpi = 100F;
+            this.label17.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
+            this.label17.LocationFloat = new DevExpress.Utils.PointFloat(23.5F, 58.08331F);
+            this.label17.Multiline = true;
+            this.label17.Name = "label17";
+            this.label17.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label17.SizeF = new System.Drawing.SizeF(238.8332F, 26.04167F);
+            this.label17.StylePriority.UseFont = false;
+            this.label17.StylePriority.UseTextAlignment = false;
+            this.label17.Text = "TỔNG CỤC THUẾ";
+            this.label17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label41
+            // 
+            this.label41.Dpi = 100F;
+            this.label41.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.label41.LocationFloat = new DevExpress.Utils.PointFloat(22.87499F, 32.04166F);
+            this.label41.Multiline = true;
+            this.label41.Name = "label41";
+            this.label41.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label41.SizeF = new System.Drawing.SizeF(238.8332F, 26.04167F);
+            this.label41.StylePriority.UseFont = false;
+            this.label41.StylePriority.UseTextAlignment = false;
+            this.label41.Text = "BỘ TÀI CHÍNH";
+            this.label41.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label40
+            // 
+            this.label40.Dpi = 100F;
+            this.label40.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
+            this.label40.LocationFloat = new DevExpress.Utils.PointFloat(551.4302F, 0F);
+            this.label40.Name = "label40";
+            this.label40.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label40.SizeF = new System.Drawing.SizeF(154.6945F, 26.04167F);
+            this.label40.StylePriority.UseFont = false;
+            this.label40.StylePriority.UseTextAlignment = false;
+            this.label40.Text = "Mẫu số: 01/TB-TNĐT";
+            this.label40.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.cal_kinh_gui")});
+            this.label4.Dpi = 100F;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
+            this.label4.LocationFloat = new DevExpress.Utils.PointFloat(8.083312F, 204.7084F);
+            this.label4.Name = "label4";
+            this.label4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label4.SizeF = new System.Drawing.SizeF(781.8138F, 26.04166F);
+            this.label4.StylePriority.UseFont = false;
+            this.label4.StylePriority.UseTextAlignment = false;
+            this.label4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.Dpi = 100F;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
+            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(347.0556F, 32.04167F);
+            this.label1.Multiline = true;
+            this.label1.Name = "label1";
+            this.label1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label1.SizeF = new System.Drawing.SizeF(334.1669F, 59.37501F);
+            this.label1.StylePriority.UseFont = false;
+            this.label1.StylePriority.UseTextAlignment = false;
+            this.label1.Text = "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\r\nĐộc lập - Tự do - Hạnh phúc \r\n---------------" +
+                "\r\n";
+            this.label1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // tableRow20
+            // 
+            this.tableRow20.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell26});
+            this.tableRow20.Dpi = 100F;
+            this.tableRow20.Name = "tableRow20";
+            this.tableRow20.Weight = 1D;
+            // 
+            // tableRow21
+            // 
+            this.tableRow21.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell27,
+                        this.tableCell28});
+            this.tableRow21.Dpi = 100F;
+            this.tableRow21.Name = "tableRow21";
+            this.tableRow21.Weight = 1D;
+            // 
+            // tableRow22
+            // 
+            this.tableRow22.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell29,
+                        this.tableCell30});
+            this.tableRow22.Dpi = 100F;
+            this.tableRow22.Name = "tableRow22";
+            this.tableRow22.Weight = 1D;
+            // 
+            // tableRow23
+            // 
+            this.tableRow23.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell31});
+            this.tableRow23.Dpi = 100F;
+            this.tableRow23.Name = "tableRow23";
+            this.tableRow23.Weight = 1D;
+            // 
+            // tableCell26
+            // 
+            this.tableCell26.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.cal_cancu_ktn")});
+            this.tableCell26.Dpi = 100F;
+            this.tableCell26.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell26.Name = "tableCell26";
+            this.tableCell26.StylePriority.UseFont = false;
+            this.tableCell26.StylePriority.UseTextAlignment = false;
+            this.tableCell26.Text = "Căn cứ";
+            this.tableCell26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell26.Weight = 4D;
+            // 
+            // tableCell27
+            // 
+            this.tableCell27.Dpi = 100F;
+            this.tableCell27.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell27.Name = "tableCell27";
+            this.tableCell27.StylePriority.UseFont = false;
+            this.tableCell27.StylePriority.UseTextAlignment = false;
+            this.tableCell27.Text = "- Tên tờ khai:";
+            this.tableCell27.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell27.Weight = 0.52874162872470487D;
+            // 
+            // tableCell28
+            // 
+            this.tableCell28.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.TTKhai")});
+            this.tableCell28.Dpi = 100F;
+            this.tableCell28.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell28.Name = "tableCell28";
+            this.tableCell28.StylePriority.UseFont = false;
+            this.tableCell28.StylePriority.UseTextAlignment = false;
+            this.tableCell28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell28.Weight = 3.4712583712752951D;
+            // 
+            // tableCell29
+            // 
+            this.tableCell29.Dpi = 100F;
+            this.tableCell29.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell29.Name = "tableCell29";
+            this.tableCell29.StylePriority.UseFont = false;
+            this.tableCell29.StylePriority.UseTextAlignment = false;
+            this.tableCell29.Text = "- Mã giao dịch điện tử:";
+            this.tableCell29.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell29.Weight = 0.72975923719099756D;
+            // 
+            // tableCell30
+            // 
+            this.tableCell30.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.MGDDTu")});
+            this.tableCell30.Dpi = 100F;
+            this.tableCell30.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell30.Name = "tableCell30";
+            this.tableCell30.StylePriority.UseFont = false;
+            this.tableCell30.StylePriority.UseTextAlignment = false;
+            this.tableCell30.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell30.Weight = 3.2702407628090024D;
+            // 
+            // tableCell31
+            // 
+            this.tableCell31.Dpi = 100F;
+            this.tableCell31.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell31.Name = "tableCell31";
+            this.tableCell31.StylePriority.UseFont = false;
+            this.tableCell31.StylePriority.UseTextAlignment = false;
+            this.tableCell31.Text = "- Lý do không tiếp nhận:";
+            this.tableCell31.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell31.Weight = 4D;
+            // 
+            // tableRow16
+            // 
+            this.tableRow16.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell18});
+            this.tableRow16.Dpi = 100F;
+            this.tableRow16.Name = "tableRow16";
+            this.tableRow16.Weight = 1D;
+            // 
+            // tableRow17
+            // 
+            this.tableRow17.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell19,
+                        this.tableCell22});
+            this.tableRow17.Dpi = 100F;
+            this.tableRow17.Name = "tableRow17";
+            this.tableRow17.Weight = 1D;
+            // 
+            // tableRow18
+            // 
+            this.tableRow18.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell23,
+                        this.tableCell24});
+            this.tableRow18.Dpi = 100F;
+            this.tableRow18.Name = "tableRow18";
+            this.tableRow18.Weight = 1D;
+            // 
+            // tableRow19
+            // 
+            this.tableRow19.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell34});
+            this.tableRow19.Dpi = 100F;
+            this.tableRow19.Name = "tableRow19";
+            this.tableRow19.Weight = 1D;
+            // 
+            // tableRow25
+            // 
+            this.tableRow25.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell35});
+            this.tableRow25.Dpi = 100F;
+            this.tableRow25.Name = "tableRow25";
+            this.tableRow25.Weight = 1D;
+            // 
+            // tableCell18
+            // 
+            this.tableCell18.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.cal_cancu")});
+            this.tableCell18.Dpi = 100F;
+            this.tableCell18.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell18.Name = "tableCell18";
+            this.tableCell18.StylePriority.UseFont = false;
+            this.tableCell18.StylePriority.UseTextAlignment = false;
+            this.tableCell18.Text = "Căn cứ";
+            this.tableCell18.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell18.Weight = 4D;
+            // 
+            // tableCell19
+            // 
+            this.tableCell19.Dpi = 100F;
+            this.tableCell19.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell19.Name = "tableCell19";
+            this.tableCell19.StylePriority.UseFont = false;
+            this.tableCell19.StylePriority.UseTextAlignment = false;
+            this.tableCell19.Text = "- Tên tờ khai:";
+            this.tableCell19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell19.Weight = 0.52874162872470487D;
+            // 
+            // tableCell22
+            // 
+            this.tableCell22.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.TTKhai")});
+            this.tableCell22.Dpi = 100F;
+            this.tableCell22.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell22.Name = "tableCell22";
+            this.tableCell22.StylePriority.UseFont = false;
+            this.tableCell22.StylePriority.UseTextAlignment = false;
+            this.tableCell22.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell22.Weight = 3.4712583712752951D;
+            // 
+            // tableCell23
+            // 
+            this.tableCell23.Dpi = 100F;
+            this.tableCell23.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell23.Name = "tableCell23";
+            this.tableCell23.StylePriority.UseFont = false;
+            this.tableCell23.StylePriority.UseTextAlignment = false;
+            this.tableCell23.Text = "- Mã giao dịch điện tử:";
+            this.tableCell23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell23.Weight = 0.72975923719099756D;
+            // 
+            // tableCell24
+            // 
+            this.tableCell24.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.MGDDTu")});
+            this.tableCell24.Dpi = 100F;
+            this.tableCell24.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell24.Name = "tableCell24";
+            this.tableCell24.StylePriority.UseFont = false;
+            this.tableCell24.StylePriority.UseTextAlignment = false;
+            this.tableCell24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell24.Weight = 3.2702407628090024D;
+            // 
+            // tableCell34
+            // 
+            this.tableCell34.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.cal_th3")});
+            this.tableCell34.Dpi = 100F;
+            this.tableCell34.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell34.Name = "tableCell34";
+            this.tableCell34.StylePriority.UseFont = false;
+            this.tableCell34.StylePriority.UseTextAlignment = false;
+            this.tableCell34.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell34.Weight = 4D;
+            // 
+            // tableCell35
+            // 
+            this.tableCell35.Dpi = 100F;
+            this.tableCell35.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell35.Name = "tableCell35";
+            this.tableCell35.StylePriority.UseFont = false;
+            this.tableCell35.StylePriority.UseTextAlignment = false;
+            this.tableCell35.Text = resources.GetString("tableCell35.Text");
+            this.tableCell35.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell35.Weight = 4D;
+            // 
+            // tableRow4
+            // 
+            this.tableRow4.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell5});
+            this.tableRow4.Dpi = 100F;
+            this.tableRow4.Name = "tableRow4";
+            this.tableRow4.Weight = 1D;
+            // 
+            // tableRow12
+            // 
+            this.tableRow12.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell6,
+                        this.tableCell7});
+            this.tableRow12.Dpi = 100F;
+            this.tableRow12.Name = "tableRow12";
+            this.tableRow12.Weight = 1D;
+            // 
+            // tableRow13
+            // 
+            this.tableRow13.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell8,
+                        this.tableCell9});
+            this.tableRow13.Dpi = 100F;
+            this.tableRow13.Name = "tableRow13";
+            this.tableRow13.Weight = 1D;
+            // 
+            // tableRow14
+            // 
+            this.tableRow14.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell10});
+            this.tableRow14.Dpi = 100F;
+            this.tableRow14.Name = "tableRow14";
+            this.tableRow14.Weight = 1D;
+            // 
+            // tableCell5
+            // 
+            this.tableCell5.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.cal_cancu_ktn")});
+            this.tableCell5.Dpi = 100F;
+            this.tableCell5.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell5.Name = "tableCell5";
+            this.tableCell5.StylePriority.UseFont = false;
+            this.tableCell5.StylePriority.UseTextAlignment = false;
+            this.tableCell5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell5.Weight = 4D;
+            // 
+            // tableCell6
+            // 
+            this.tableCell6.Dpi = 100F;
+            this.tableCell6.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell6.Name = "tableCell6";
+            this.tableCell6.StylePriority.UseFont = false;
+            this.tableCell6.StylePriority.UseTextAlignment = false;
+            this.tableCell6.Text = "- Tên tờ khai:";
+            this.tableCell6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell6.Weight = 0.52874162872470487D;
+            // 
+            // tableCell7
+            // 
+            this.tableCell7.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.TTKhai")});
+            this.tableCell7.Dpi = 100F;
+            this.tableCell7.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell7.Name = "tableCell7";
+            this.tableCell7.StylePriority.UseFont = false;
+            this.tableCell7.StylePriority.UseTextAlignment = false;
+            this.tableCell7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell7.Weight = 3.4712583712752951D;
+            // 
+            // tableCell8
+            // 
+            this.tableCell8.Dpi = 100F;
+            this.tableCell8.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell8.Name = "tableCell8";
+            this.tableCell8.StylePriority.UseFont = false;
+            this.tableCell8.StylePriority.UseTextAlignment = false;
+            this.tableCell8.Text = "- Mã giao dịch điện tử:";
+            this.tableCell8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell8.Weight = 0.72975923719099756D;
+            // 
+            // tableCell9
+            // 
+            this.tableCell9.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.MGDDTu")});
+            this.tableCell9.Dpi = 100F;
+            this.tableCell9.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell9.Name = "tableCell9";
+            this.tableCell9.StylePriority.UseFont = false;
+            this.tableCell9.StylePriority.UseTextAlignment = false;
+            this.tableCell9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell9.Weight = 3.2702407628090024D;
+            // 
+            // tableCell10
+            // 
+            this.tableCell10.Dpi = 100F;
+            this.tableCell10.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell10.Name = "tableCell10";
+            this.tableCell10.StylePriority.UseFont = false;
+            this.tableCell10.StylePriority.UseTextAlignment = false;
+            this.tableCell10.Text = "- Lý do không tiếp nhận:";
+            this.tableCell10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell10.Weight = 4D;
+            // 
+            // tableRow3
+            // 
+            this.tableRow3.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell4});
+            this.tableRow3.Dpi = 100F;
+            this.tableRow3.Name = "tableRow3";
+            this.tableRow3.Weight = 1D;
+            // 
+            // tableRow8
+            // 
+            this.tableRow8.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell15,
+                        this.tableCell16});
+            this.tableRow8.Dpi = 100F;
+            this.tableRow8.Name = "tableRow8";
+            this.tableRow8.Weight = 1D;
+            // 
+            // tableRow2
+            // 
+            this.tableRow2.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell2,
+                        this.tableCell3});
+            this.tableRow2.Dpi = 100F;
+            this.tableRow2.Name = "tableRow2";
+            this.tableRow2.Weight = 1D;
+            // 
+            // tableRow9
+            // 
+            this.tableRow9.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell20});
+            this.tableRow9.Dpi = 100F;
+            this.tableRow9.Name = "tableRow9";
+            this.tableRow9.Weight = 1D;
+            // 
+            // tableRow10
+            // 
+            this.tableRow10.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell25});
+            this.tableRow10.Dpi = 100F;
+            this.tableRow10.Name = "tableRow10";
+            this.tableRow10.Weight = 1D;
+            // 
+            // tableCell4
+            // 
+            this.tableCell4.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.cal_cancu")});
+            this.tableCell4.Dpi = 100F;
+            this.tableCell4.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell4.Name = "tableCell4";
+            this.tableCell4.StylePriority.UseFont = false;
+            this.tableCell4.StylePriority.UseTextAlignment = false;
+            this.tableCell4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell4.Weight = 4D;
+            // 
+            // tableCell15
+            // 
+            this.tableCell15.Dpi = 100F;
+            this.tableCell15.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell15.Name = "tableCell15";
+            this.tableCell15.StylePriority.UseFont = false;
+            this.tableCell15.StylePriority.UseTextAlignment = false;
+            this.tableCell15.Text = "- Tên tờ khai:";
+            this.tableCell15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell15.Weight = 0.52874162872470487D;
+            // 
+            // tableCell16
+            // 
+            this.tableCell16.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.TTKhai")});
+            this.tableCell16.Dpi = 100F;
+            this.tableCell16.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell16.Name = "tableCell16";
+            this.tableCell16.StylePriority.UseFont = false;
+            this.tableCell16.StylePriority.UseTextAlignment = false;
+            this.tableCell16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell16.Weight = 3.4712583712752951D;
+            // 
+            // tableCell2
+            // 
+            this.tableCell2.Dpi = 100F;
+            this.tableCell2.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell2.Name = "tableCell2";
+            this.tableCell2.StylePriority.UseFont = false;
+            this.tableCell2.StylePriority.UseTextAlignment = false;
+            this.tableCell2.Text = "- Mã giao dịch điện tử:";
+            this.tableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell2.Weight = 0.72975923719099756D;
+            // 
+            // tableCell3
+            // 
+            this.tableCell3.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.MGDDTu")});
+            this.tableCell3.Dpi = 100F;
+            this.tableCell3.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell3.Name = "tableCell3";
+            this.tableCell3.StylePriority.UseFont = false;
+            this.tableCell3.StylePriority.UseTextAlignment = false;
+            this.tableCell3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell3.Weight = 3.2702407628090024D;
+            // 
+            // tableCell20
+            // 
+            this.tableCell20.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.cal_th3")});
+            this.tableCell20.Dpi = 100F;
+            this.tableCell20.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell20.Name = "tableCell20";
+            this.tableCell20.SnapLineMargin = new DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100F);
+            this.tableCell20.StylePriority.UseFont = false;
+            this.tableCell20.StylePriority.UseTextAlignment = false;
+            this.tableCell20.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell20.Weight = 4D;
+            // 
+            // tableCell25
+            // 
+            this.tableCell25.Dpi = 100F;
+            this.tableCell25.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell25.Name = "tableCell25";
+            this.tableCell25.StylePriority.UseFont = false;
+            this.tableCell25.StylePriority.UseTextAlignment = false;
+            this.tableCell25.Text = resources.GetString("tableCell25.Text");
+            this.tableCell25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell25.Weight = 4D;
+            // 
+            // tableRow1
+            // 
+            this.tableRow1.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell1,
+                        this.tableCell11,
+                        this.tableCell12});
+            this.tableRow1.Dpi = 100F;
+            this.tableRow1.Name = "tableRow1";
+            this.tableRow1.Weight = 1D;
+            // 
+            // tableCell1
+            // 
+            this.tableCell1.Dpi = 100F;
+            this.tableCell1.Name = "tableCell1";
+            this.tableCell1.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 5, 0, 0, 100F);
+            this.tableCell1.StylePriority.UsePadding = false;
+            this.tableCell1.StylePriority.UseTextAlignment = false;
+            this.tableCell1.Text = "Số:";
+            this.tableCell1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell1.Weight = 0.15764439889679227D;
+            // 
+            // tableCell11
+            // 
+            this.tableCell11.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "DLTBao.So")});
+            this.tableCell11.Dpi = 100F;
+            this.tableCell11.Name = "tableCell11";
+            this.tableCell11.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 5, 0, 0, 100F);
+            this.tableCell11.StylePriority.UsePadding = false;
+            this.tableCell11.StylePriority.UseTextAlignment = false;
+            this.tableCell11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell11.Weight = 0.51723424834467613D;
+            // 
+            // tableCell12
+            // 
+            this.tableCell12.Dpi = 100F;
+            this.tableCell12.Name = "tableCell12";
+            this.tableCell12.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 5, 0, 0, 100F);
+            this.tableCell12.StylePriority.UsePadding = false;
+            this.tableCell12.StylePriority.UseTextAlignment = false;
+            this.tableCell12.Text = "/TB-HĐĐT";
+            this.tableCell12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell12.Weight = 0.29149578403575527D;
+            // 
+            // TblKyHoaDon
+            // 
+            this.TblKyHoaDon.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.TblKyHoaDon.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.TblKyHoaDon.Dpi = 100F;
+            this.TblKyHoaDon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.TblKyHoaDon.LocationFloat = new DevExpress.Utils.PointFloat(431.2936F, 105.4166F);
+            this.TblKyHoaDon.Name = "TblKyHoaDon";
+            this.TblKyHoaDon.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+                        this.tableRow11,
+                        this.tableRow7,
+                        this.tableRow24});
+            this.TblKyHoaDon.Scripts.OnBeforePrint = "TblKyHoaDon_BeforePrint";
+            this.TblKyHoaDon.SizeF = new System.Drawing.SizeF(322.2285F, 70.62527F);
+            this.TblKyHoaDon.StylePriority.UseBorderColor = false;
+            this.TblKyHoaDon.StylePriority.UseBorders = false;
+            this.TblKyHoaDon.StylePriority.UseForeColor = false;
+            this.TblKyHoaDon.StylePriority.UseTextAlignment = false;
+            this.TblKyHoaDon.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // label12
+            // 
+            this.label12.Dpi = 100F;
+            this.label12.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Italic);
+            this.label12.LocationFloat = new DevExpress.Utils.PointFloat(432.9781F, 62.70828F);
+            this.label12.Name = "label12";
+            this.label12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label12.SizeF = new System.Drawing.SizeF(321.5221F, 26.04166F);
+            this.label12.StylePriority.UseFont = false;
+            this.label12.StylePriority.UseTextAlignment = false;
+            this.label12.Text = "Chữ ký số của Tổng cục Thuế";
+            this.label12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // table4
+            // 
+            this.table4.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.table4.Dpi = 100F;
+            this.table4.LocationFloat = new DevExpress.Utils.PointFloat(9.208345F, 0F);
+            this.table4.Name = "table4";
+            this.table4.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
+            this.table4.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+                        this.tableRow5,
+                        this.tableRow6});
+            this.table4.SizeF = new System.Drawing.SizeF(780.9167F, 50F);
+            this.table4.StylePriority.UseBorders = false;
+            this.table4.StylePriority.UsePadding = false;
+            this.table4.StylePriority.UseTextAlignment = false;
+            this.table4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // pictChek
+            // 
+            this.pictChek.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictChek.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.pictChek.Dpi = 100F;
+            this.pictChek.Image = ((System.Drawing.Image)(resources.GetObject("pictChek.Image")));
+            this.pictChek.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.MiddleCenter;
+            this.pictChek.LocationFloat = new DevExpress.Utils.PointFloat(669.8694F, 109.7918F);
+            this.pictChek.Name = "pictChek";
+            this.pictChek.Scripts.OnBeforePrint = "pictChek_BeforePrint";
+            this.pictChek.SizeF = new System.Drawing.SizeF(60.65268F, 66.25006F);
+            this.pictChek.StylePriority.UseBorderColor = false;
+            this.pictChek.StylePriority.UseBorders = false;
+            // 
+            // tableRow11
+            // 
+            this.tableRow11.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell36});
+            this.tableRow11.Dpi = 100F;
+            this.tableRow11.Name = "tableRow11";
+            this.tableRow11.Weight = 1D;
+            // 
+            // tableRow7
+            // 
+            this.tableRow7.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell32,
+                        this.tableCell14});
+            this.tableRow7.Dpi = 100F;
+            this.tableRow7.Name = "tableRow7";
+            this.tableRow7.Weight = 1D;
+            // 
+            // tableRow24
+            // 
+            this.tableRow24.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell33,
+                        this.tableCell55});
+            this.tableRow24.Dpi = 100F;
+            this.tableRow24.Name = "tableRow24";
+            this.tableRow24.Weight = 1D;
+            // 
+            // tableCell36
+            // 
+            this.tableCell36.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tableCell36.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Right)));
+            this.tableCell36.Dpi = 100F;
+            this.tableCell36.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
+            this.tableCell36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tableCell36.Name = "tableCell36";
+            this.tableCell36.StylePriority.UseBorderColor = false;
+            this.tableCell36.StylePriority.UseBorders = false;
+            this.tableCell36.StylePriority.UseFont = false;
+            this.tableCell36.StylePriority.UseForeColor = false;
+            this.tableCell36.StylePriority.UseTextAlignment = false;
+            this.tableCell36.Text = "Signature Valid";
+            this.tableCell36.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell36.Weight = 2D;
+            // 
+            // tableCell32
+            // 
+            this.tableCell32.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tableCell32.Borders = DevExpress.XtraPrinting.BorderSide.Left;
+            this.tableCell32.Dpi = 100F;
+            this.tableCell32.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
+            this.tableCell32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tableCell32.Name = "tableCell32";
+            this.tableCell32.StylePriority.UseBorderColor = false;
+            this.tableCell32.StylePriority.UseBorders = false;
+            this.tableCell32.StylePriority.UseFont = false;
+            this.tableCell32.StylePriority.UseForeColor = false;
+            this.tableCell32.StylePriority.UseTextAlignment = false;
+            this.tableCell32.Text = "Ký bởi:";
+            this.tableCell32.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell32.Weight = 0.55020964245182447D;
+            // 
+            // tableCell14
+            // 
+            this.tableCell14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tableCell14.Borders = DevExpress.XtraPrinting.BorderSide.Right;
+            this.tableCell14.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "X509Data.cal_tcqt")});
+            this.tableCell14.Dpi = 100F;
+            this.tableCell14.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
+            this.tableCell14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tableCell14.Name = "tableCell14";
+            this.tableCell14.StylePriority.UseBorderColor = false;
+            this.tableCell14.StylePriority.UseBorders = false;
+            this.tableCell14.StylePriority.UseFont = false;
+            this.tableCell14.StylePriority.UseForeColor = false;
+            this.tableCell14.StylePriority.UseTextAlignment = false;
+            this.tableCell14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell14.Weight = 1.4497903575481754D;
+            // 
+            // tableCell33
+            // 
+            this.tableCell33.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tableCell33.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.tableCell33.Dpi = 100F;
+            this.tableCell33.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
+            this.tableCell33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tableCell33.Name = "tableCell33";
+            this.tableCell33.StylePriority.UseBorderColor = false;
+            this.tableCell33.StylePriority.UseBorders = false;
+            this.tableCell33.StylePriority.UseFont = false;
+            this.tableCell33.StylePriority.UseForeColor = false;
+            this.tableCell33.StylePriority.UseTextAlignment = false;
+            this.tableCell33.Text = "Ký ngày:";
+            this.tableCell33.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell33.Weight = 0.55020964245182447D;
+            // 
+            // tableCell55
+            // 
+            this.tableCell55.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tableCell55.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Right | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.tableCell55.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "SignatureProperty.cal_ngay_ky")});
+            this.tableCell55.Dpi = 100F;
+            this.tableCell55.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
+            this.tableCell55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tableCell55.Name = "tableCell55";
+            this.tableCell55.StylePriority.UseBorderColor = false;
+            this.tableCell55.StylePriority.UseBorders = false;
+            this.tableCell55.StylePriority.UseFont = false;
+            this.tableCell55.StylePriority.UseForeColor = false;
+            this.tableCell55.StylePriority.UseTextAlignment = false;
+            this.tableCell55.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell55.Weight = 1.4497903575481754D;
+            // 
+            // tableRow5
+            // 
+            this.tableRow5.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell17});
+            this.tableRow5.Dpi = 100F;
+            this.tableRow5.Name = "tableRow5";
+            this.tableRow5.Weight = 1D;
+            // 
+            // tableRow6
+            // 
+            this.tableRow6.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+                        this.tableCell21});
+            this.tableRow6.Dpi = 100F;
+            this.tableRow6.Name = "tableRow6";
+            this.tableRow6.Weight = 1D;
+            // 
+            // tableCell17
+            // 
+            this.tableCell17.Dpi = 100F;
+            this.tableCell17.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell17.Name = "tableCell17";
+            this.tableCell17.StylePriority.UseFont = false;
+            this.tableCell17.StylePriority.UseTextAlignment = false;
+            this.tableCell17.Text = "Trường hợp NNT/Quý đơn vị cần biết thêm thông tin chi tiết, xin vui lòng truy cập" +
+                " theo đường dẫn https://hoadondientu.gdt.gov.vn hoặc liên hệ với Chi cục thuế qu" +
+                "ản lý để được hỗ trợ.";
+            this.tableCell17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell17.Weight = 4D;
+            // 
+            // tableCell21
+            // 
+            this.tableCell21.Dpi = 100F;
+            this.tableCell21.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.tableCell21.Name = "tableCell21";
+            this.tableCell21.StylePriority.UseFont = false;
+            this.tableCell21.StylePriority.UseTextAlignment = false;
+            this.tableCell21.Text = "Cơ quan thuế thông báo để người nộp thuế biết và thực hiện./.";
+            this.tableCell21.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.tableCell21.Weight = 4D;
+            // 
+            // cal_DiaDanh
+            // 
+            this.cal_DiaDanh.DataMember = "DLTBao";
+            this.cal_DiaDanh.Expression = resources.GetString("cal_DiaDanh.Expression");
+            this.cal_DiaDanh.Name = "cal_DiaDanh";
+            // 
+            // cal_Ngay
+            // 
+            this.cal_Ngay.DataMember = "DLTBao";
+            this.cal_Ngay.Expression = resources.GetString("cal_Ngay.Expression");
+            this.cal_Ngay.Name = "cal_Ngay";
+            // 
+            // cal_ChapThuan
+            // 
+            this.cal_ChapThuan.DataMember = "DLTBao";
+            this.cal_ChapThuan.Expression = "Iif([TTXNCQT] == \'1\', \'chấp nhận\' , Iif([TTXNCQT] == \'2\', \'không chấp nhận\'  , \'ủ" +
+                "y thác qua tổ chức cung cấp dịch vụ hóa đơn điện tử\'))";
+            this.cal_ChapThuan.Name = "cal_ChapThuan";
+            // 
+            // cal_NoiDung
+            // 
+            this.cal_NoiDung.DataMember = "DLTBao";
+            this.cal_NoiDung.Expression = resources.GetString("cal_NoiDung.Expression");
+            this.cal_NoiDung.Name = "cal_NoiDung";
+            // 
+            // cal_ngay_tb
+            // 
+            this.cal_ngay_tb.DataMember = "DLTBao";
+            this.cal_ngay_tb.Expression = resources.GetString("cal_ngay_tb.Expression");
+            this.cal_ngay_tb.Name = "cal_ngay_tb";
+            // 
+            // cal_ngay_tn
+            // 
+            this.cal_ngay_tn.DataMember = "DLTBao";
+            this.cal_ngay_tn.Expression = resources.GetString("cal_ngay_tn.Expression");
+            this.cal_ngay_tn.Name = "cal_ngay_tn";
+            // 
+            // cal_ngay_tv
+            // 
+            this.cal_ngay_tv.DataMember = "STBao";
+            this.cal_ngay_tv.Expression = resources.GetString("cal_ngay_tv.Expression");
+            this.cal_ngay_tv.Name = "cal_ngay_tv";
+            // 
+            // cal_ngayA
+            // 
+            this.cal_ngayA.DataMember = "STBao";
+            this.cal_ngayA.Expression = resources.GetString("cal_ngayA.Expression");
+            this.cal_ngayA.Name = "cal_ngayA";
+            // 
+            // cal_cancu
+            // 
+            this.cal_cancu.DataMember = "DLTBao";
+            this.cal_cancu.Expression = resources.GetString("cal_cancu.Expression");
+            this.cal_cancu.Name = "cal_cancu";
+            // 
+            // cal_tcqt
+            // 
+            this.cal_tcqt.DataMember = "X509Data";
+            this.cal_tcqt.Expression = "Replace([X509SubjectName], \'CN=\', \'\')";
+            this.cal_tcqt.Name = "cal_tcqt";
+            // 
+            // cal_Ngay_A
+            // 
+            this.cal_Ngay_A.DataMember = "DLTBao";
+            this.cal_Ngay_A.Expression = resources.GetString("cal_Ngay_A.Expression");
+            this.cal_Ngay_A.Name = "cal_Ngay_A";
+            // 
+            // cal_ngay_lap
+            // 
+            this.cal_ngay_lap.DataMember = "HDon";
+            this.cal_ngay_lap.Expression = "Concat(GetDay([NLap]),\'-\',GetMonth([NLap]) ,\'-\',GetYear([NLap]) )";
+            this.cal_ngay_lap.Name = "cal_ngay_lap";
+            // 
+            // cal_TD_lap
+            // 
+            this.cal_TD_lap.DataMember = "LCMa";
+            this.cal_TD_lap.Expression = "Concat(GetDay([NLap]),\'-\',GetMonth([NLap]) ,\'-\',GetYear([NLap]) )";
+            this.cal_TD_lap.Name = "cal_TD_lap";
+            // 
+            // cal_ngay_ky
+            // 
+            this.cal_ngay_ky.DataMember = "SignatureProperty";
+            this.cal_ngay_ky.Expression = "Concat(GetDay([SigningTime]),\'-\',GetMonth([SigningTime]) ,\'-\',GetYear([SigningTim" +
+                "e]) )";
+            this.cal_ngay_ky.Name = "cal_ngay_ky";
+            // 
+            // cal_thongbao
+            // 
+            this.cal_thongbao.DataMember = "DLTBao";
+            this.cal_thongbao.Expression = resources.GetString("cal_thongbao.Expression");
+            this.cal_thongbao.Name = "cal_thongbao";
+            // 
+            // cal_th3
+            // 
+            this.cal_th3.DataMember = "DLTBao";
+            this.cal_th3.Expression = resources.GetString("cal_th3.Expression");
+            this.cal_th3.Name = "cal_th3";
+            // 
+            // cal_cancu_ktn
+            // 
+            this.cal_cancu_ktn.DataMember = "DLTBao";
+            this.cal_cancu_ktn.Expression = resources.GetString("cal_cancu_ktn.Expression");
+            this.cal_cancu_ktn.Name = "cal_cancu_ktn";
+            // 
+            // cal_kinh_gui
+            // 
+            this.cal_kinh_gui.DataMember = "DLTBao";
+            this.cal_kinh_gui.Expression = "Concat(\'Kính gửi: \',[TNNT],Concat(\' (MST: \',[MST],\')\' ) )";
+            this.cal_kinh_gui.Name = "cal_kinh_gui";
+            // 
+            // XtraReport
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.topMarginBand1,
+                        this.detailBand1,
+                        this.bottomMarginBand1,
+                        this.ReportHeader,
+                        this.PageHeader,
+                        this.ReportFooter,
+                        this.PageFooter});
+            this.CalculatedFields.AddRange(new DevExpress.XtraReports.UI.CalculatedField[] {
+                        this.cal_DiaDanh,
+                        this.cal_Ngay,
+                        this.cal_ChapThuan,
+                        this.cal_NoiDung,
+                        this.cal_ngay_tb,
+                        this.cal_ngay_tn,
+                        this.cal_ngay_tv,
+                        this.cal_ngayA,
+                        this.cal_cancu,
+                        this.cal_tcqt,
+                        this.cal_Ngay_A,
+                        this.cal_ngay_lap,
+                        this.cal_TD_lap,
+                        this.cal_ngay_ky,
+                        this.cal_thongbao,
+                        this.cal_th3,
+                        this.cal_cancu_ktn,
+                        this.cal_kinh_gui});
+            this.DataSourceSchema = resources.GetString("$this.DataSourceSchema");
+            this.Dpi = 100F;
+            this.Margins = new System.Drawing.Printing.Margins(27, 22, 49, 43);
+            this.Name = "XtraReport";
+            this.PageHeight = 1100;
+            this.PageWidth = 850;
+            this.ScriptsSource = resources.GetString("$this.ScriptsSource");
+            this.Version = "16.1";
+            ((System.ComponentModel.ISupportInitialize)(this.tbl_chitiet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btl_KTN_TD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbl_TN_TD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbl_KTN_DK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbl_TiepNhan_DK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.table1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TblKyHoaDon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.table4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}

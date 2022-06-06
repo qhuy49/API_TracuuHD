@@ -1,0 +1,24 @@
+********** 1/21/2022 11:15:01 AM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple actions were found that match the request: 
+ExportZipFileXml on type InvoiceApi.Controllers.SearchController
+ExportZipFileXml78 on type InvoiceApi.Controllers.SearchController
+Source: /Search/ExportXmlInvoice
+Stack Trace: 
+   at System.Web.Http.Controllers.ApiControllerActionSelector.ActionSelectorCacheItem.SelectAction(HttpControllerContext controllerContext)
+   at System.Web.Http.Controllers.ApiControllerActionSelector.SelectAction(HttpControllerContext controllerContext)
+   at System.Web.Http.ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()
+
+********** 1/21/2022 11:15:45 AM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple actions were found that match the request: 
+ExportZipFileXml on type InvoiceApi.Controllers.SearchController
+ExportZipFileXml78 on type InvoiceApi.Controllers.SearchController
+Source: /Search/ExportXmlInvoice
+Stack Trace: 
+   at System.Web.Http.Controllers.ApiControllerActionSelector.ActionSelectorCacheItem.SelectAction(HttpControllerContext controllerContext)
+   at System.Web.Http.Controllers.ApiControllerActionSelector.SelectAction(HttpControllerContext controllerContext)
+   at System.Web.Http.ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()
+

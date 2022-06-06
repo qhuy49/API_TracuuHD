@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://api.esigncloud.mobileid.vn/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Services" targetNamespace="http://api.esigncloud.mobileid.vn/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://esigncloud.fis.com.vn:10443/eSignCloud/Services?xsd=1" namespace="http://api.esigncloud.mobileid.vn/" />
+    </xsd:schema>
+  </types>
+  <message name="prepareHashSigningForSignCloud">
+    <part name="parameters" element="tns:prepareHashSigningForSignCloud" />
+  </message>
+  <message name="prepareHashSigningForSignCloudResponse">
+    <part name="parameters" element="tns:prepareHashSigningForSignCloudResponse" />
+  </message>
+  <message name="authorizeHashSigningForSignCloud">
+    <part name="parameters" element="tns:authorizeHashSigningForSignCloud" />
+  </message>
+  <message name="authorizeHashSigningForSignCloudResponse">
+    <part name="parameters" element="tns:authorizeHashSigningForSignCloudResponse" />
+  </message>
+  <message name="getSignatureValueForSignCloud">
+    <part name="parameters" element="tns:getSignatureValueForSignCloud" />
+  </message>
+  <message name="getSignatureValueForSignCloudResponse">
+    <part name="parameters" element="tns:getSignatureValueForSignCloudResponse" />
+  </message>
+  <message name="prepareCertificateForSignCloud">
+    <part name="parameters" element="tns:prepareCertificateForSignCloud" />
+  </message>
+  <message name="prepareCertificateForSignCloudResponse">
+    <part name="parameters" element="tns:prepareCertificateForSignCloudResponse" />
+  </message>
+  <message name="prepareFileForSignCloud">
+    <part name="parameters" element="tns:prepareFileForSignCloud" />
+  </message>
+  <message name="prepareFileForSignCloudResponse">
+    <part name="parameters" element="tns:prepareFileForSignCloudResponse" />
+  </message>
+  <message name="authorizeCounterSigningForSignCloud">
+    <part name="parameters" element="tns:authorizeCounterSigningForSignCloud" />
+  </message>
+  <message name="authorizeCounterSigningForSignCloudResponse">
+    <part name="parameters" element="tns:authorizeCounterSigningForSignCloudResponse" />
+  </message>
+  <message name="getSignedFileForSignCloud">
+    <part name="parameters" element="tns:getSignedFileForSignCloud" />
+  </message>
+  <message name="getSignedFileForSignCloudResponse">
+    <part name="parameters" element="tns:getSignedFileForSignCloudResponse" />
+  </message>
+  <message name="changePasscodeForSignCloud">
+    <part name="parameters" element="tns:changePasscodeForSignCloud" />
+  </message>
+  <message name="changePasscodeForSignCloudResponse">
+    <part name="parameters" element="tns:changePasscodeForSignCloudResponse" />
+  </message>
+  <message name="forgetPasscodeForSignCloud">
+    <part name="parameters" element="tns:forgetPasscodeForSignCloud" />
+  </message>
+  <message name="forgetPasscodeForSignCloudResponse">
+    <part name="parameters" element="tns:forgetPasscodeForSignCloudResponse" />
+  </message>
+  <message name="getCertificateDetailForSignCloud">
+    <part name="parameters" element="tns:getCertificateDetailForSignCloud" />
+  </message>
+  <message name="getCertificateDetailForSignCloudResponse">
+    <part name="parameters" element="tns:getCertificateDetailForSignCloudResponse" />
+  </message>
+  <message name="setCertificateDetailForSignCloud">
+    <part name="parameters" element="tns:setCertificateDetailForSignCloud" />
+  </message>
+  <message name="setCertificateDetailForSignCloudResponse">
+    <part name="parameters" element="tns:setCertificateDetailForSignCloudResponse" />
+  </message>
+  <message name="approveCertificateForSignCloud">
+    <part name="parameters" element="tns:approveCertificateForSignCloud" />
+  </message>
+  <message name="approveCertificateForSignCloudResponse">
+    <part name="parameters" element="tns:approveCertificateForSignCloudResponse" />
+  </message>
+  <message name="regenerateAuthorizationCodeForSignCloud">
+    <part name="parameters" element="tns:regenerateAuthorizationCodeForSignCloud" />
+  </message>
+  <message name="regenerateAuthorizationCodeForSignCloudResponse">
+    <part name="parameters" element="tns:regenerateAuthorizationCodeForSignCloudResponse" />
+  </message>
+  <message name="prepareRenewCertificateForSignCloud">
+    <part name="parameters" element="tns:prepareRenewCertificateForSignCloud" />
+  </message>
+  <message name="prepareRenewCertificateForSignCloudResponse">
+    <part name="parameters" element="tns:prepareRenewCertificateForSignCloudResponse" />
+  </message>
+  <message name="prepareChangeCertificateForSignCloud">
+    <part name="parameters" element="tns:prepareChangeCertificateForSignCloud" />
+  </message>
+  <message name="prepareChangeCertificateForSignCloudResponse">
+    <part name="parameters" element="tns:prepareChangeCertificateForSignCloudResponse" />
+  </message>
+  <message name="prepareRevokeCertificateForSignCloud">
+    <part name="parameters" element="tns:prepareRevokeCertificateForSignCloud" />
+  </message>
+  <message name="prepareRevokeCertificateForSignCloudResponse">
+    <part name="parameters" element="tns:prepareRevokeCertificateForSignCloudResponse" />
+  </message>
+  <message name="uploadFileForSignCloud">
+    <part name="parameters" element="tns:uploadFileForSignCloud" />
+  </message>
+  <message name="uploadFileForSignCloudResponse">
+    <part name="parameters" element="tns:uploadFileForSignCloudResponse" />
+  </message>
+  <message name="downloadFileForSignCloud">
+    <part name="parameters" element="tns:downloadFileForSignCloud" />
+  </message>
+  <message name="downloadFileForSignCloudResponse">
+    <part name="parameters" element="tns:downloadFileForSignCloudResponse" />
+  </message>
+  <message name="authorizeSingletonSigningForSignCloud">
+    <part name="parameters" element="tns:authorizeSingletonSigningForSignCloud" />
+  </message>
+  <message name="authorizeSingletonSigningForSignCloudResponse">
+    <part name="parameters" element="tns:authorizeSingletonSigningForSignCloudResponse" />
+  </message>
+  <message name="assignCertificateForSignCloud">
+    <part name="parameters" element="tns:assignCertificateForSignCloud" />
+  </message>
+  <message name="assignCertificateForSignCloudResponse">
+    <part name="parameters" element="tns:assignCertificateForSignCloudResponse" />
+  </message>
+  <message name="getReceiptForSignCloud">
+    <part name="parameters" element="tns:getReceiptForSignCloud" />
+  </message>
+  <message name="getReceiptForSignCloudResponse">
+    <part name="parameters" element="tns:getReceiptForSignCloudResponse" />
+  </message>
+  <message name="declineCertificateForSignCloud">
+    <part name="parameters" element="tns:declineCertificateForSignCloud" />
+  </message>
+  <message name="declineCertificateForSignCloudResponse">
+    <part name="parameters" element="tns:declineCertificateForSignCloudResponse" />
+  </message>
+  <message name="disableCertificateForSignCloud">
+    <part name="parameters" element="tns:disableCertificateForSignCloud" />
+  </message>
+  <message name="disableCertificateForSignCloudResponse">
+    <part name="parameters" element="tns:disableCertificateForSignCloudResponse" />
+  </message>
+  <message name="enableCertificateForSignCloud">
+    <part name="parameters" element="tns:enableCertificateForSignCloud" />
+  </message>
+  <message name="enableCertificateForSignCloudResponse">
+    <part name="parameters" element="tns:enableCertificateForSignCloudResponse" />
+  </message>
+  <message name="verifySignedFileForSignCloud">
+    <part name="parameters" element="tns:verifySignedFileForSignCloud" />
+  </message>
+  <message name="verifySignedFileForSignCloudResponse">
+    <part name="parameters" element="tns:verifySignedFileForSignCloudResponse" />
+  </message>
+  <message name="regenerateAuthorisationCodeForSignCloud">
+    <part name="parameters" element="tns:regenerateAuthorisationCodeForSignCloud" />
+  </message>
+  <message name="regenerateAuthorisationCodeForSignCloudResponse">
+    <part name="parameters" element="tns:regenerateAuthorisationCodeForSignCloudResponse" />
+  </message>
+  <message name="getVersion">
+    <part name="parameters" element="tns:getVersion" />
+  </message>
+  <message name="getVersionResponse">
+    <part name="parameters" element="tns:getVersionResponse" />
+  </message>
+  <portType name="Services">
+    <operation name="prepareHashSigningForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareHashSigningForSignCloudRequest" message="tns:prepareHashSigningForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareHashSigningForSignCloudResponse" message="tns:prepareHashSigningForSignCloudResponse" />
+    </operation>
+    <operation name="authorizeHashSigningForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/authorizeHashSigningForSignCloudRequest" message="tns:authorizeHashSigningForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/authorizeHashSigningForSignCloudResponse" message="tns:authorizeHashSigningForSignCloudResponse" />
+    </operation>
+    <operation name="getSignatureValueForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/getSignatureValueForSignCloudRequest" message="tns:getSignatureValueForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/getSignatureValueForSignCloudResponse" message="tns:getSignatureValueForSignCloudResponse" />
+    </operation>
+    <operation name="prepareCertificateForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareCertificateForSignCloudRequest" message="tns:prepareCertificateForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareCertificateForSignCloudResponse" message="tns:prepareCertificateForSignCloudResponse" />
+    </operation>
+    <operation name="prepareFileForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareFileForSignCloudRequest" message="tns:prepareFileForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareFileForSignCloudResponse" message="tns:prepareFileForSignCloudResponse" />
+    </operation>
+    <operation name="authorizeCounterSigningForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/authorizeCounterSigningForSignCloudRequest" message="tns:authorizeCounterSigningForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/authorizeCounterSigningForSignCloudResponse" message="tns:authorizeCounterSigningForSignCloudResponse" />
+    </operation>
+    <operation name="getSignedFileForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/getSignedFileForSignCloudRequest" message="tns:getSignedFileForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/getSignedFileForSignCloudResponse" message="tns:getSignedFileForSignCloudResponse" />
+    </operation>
+    <operation name="changePasscodeForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/changePasscodeForSignCloudRequest" message="tns:changePasscodeForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/changePasscodeForSignCloudResponse" message="tns:changePasscodeForSignCloudResponse" />
+    </operation>
+    <operation name="forgetPasscodeForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/forgetPasscodeForSignCloudRequest" message="tns:forgetPasscodeForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/forgetPasscodeForSignCloudResponse" message="tns:forgetPasscodeForSignCloudResponse" />
+    </operation>
+    <operation name="getCertificateDetailForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/getCertificateDetailForSignCloudRequest" message="tns:getCertificateDetailForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/getCertificateDetailForSignCloudResponse" message="tns:getCertificateDetailForSignCloudResponse" />
+    </operation>
+    <operation name="setCertificateDetailForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/setCertificateDetailForSignCloudRequest" message="tns:setCertificateDetailForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/setCertificateDetailForSignCloudResponse" message="tns:setCertificateDetailForSignCloudResponse" />
+    </operation>
+    <operation name="approveCertificateForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/approveCertificateForSignCloudRequest" message="tns:approveCertificateForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/approveCertificateForSignCloudResponse" message="tns:approveCertificateForSignCloudResponse" />
+    </operation>
+    <operation name="regenerateAuthorizationCodeForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/regenerateAuthorizationCodeForSignCloudRequest" message="tns:regenerateAuthorizationCodeForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/regenerateAuthorizationCodeForSignCloudResponse" message="tns:regenerateAuthorizationCodeForSignCloudResponse" />
+    </operation>
+    <operation name="prepareRenewCertificateForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareRenewCertificateForSignCloudRequest" message="tns:prepareRenewCertificateForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareRenewCertificateForSignCloudResponse" message="tns:prepareRenewCertificateForSignCloudResponse" />
+    </operation>
+    <operation name="prepareChangeCertificateForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareChangeCertificateForSignCloudRequest" message="tns:prepareChangeCertificateForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareChangeCertificateForSignCloudResponse" message="tns:prepareChangeCertificateForSignCloudResponse" />
+    </operation>
+    <operation name="prepareRevokeCertificateForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareRevokeCertificateForSignCloudRequest" message="tns:prepareRevokeCertificateForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/prepareRevokeCertificateForSignCloudResponse" message="tns:prepareRevokeCertificateForSignCloudResponse" />
+    </operation>
+    <operation name="uploadFileForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/uploadFileForSignCloudRequest" message="tns:uploadFileForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/uploadFileForSignCloudResponse" message="tns:uploadFileForSignCloudResponse" />
+    </operation>
+    <operation name="downloadFileForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/downloadFileForSignCloudRequest" message="tns:downloadFileForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/downloadFileForSignCloudResponse" message="tns:downloadFileForSignCloudResponse" />
+    </operation>
+    <operation name="authorizeSingletonSigningForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/authorizeSingletonSigningForSignCloudRequest" message="tns:authorizeSingletonSigningForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/authorizeSingletonSigningForSignCloudResponse" message="tns:authorizeSingletonSigningForSignCloudResponse" />
+    </operation>
+    <operation name="assignCertificateForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/assignCertificateForSignCloudRequest" message="tns:assignCertificateForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/assignCertificateForSignCloudResponse" message="tns:assignCertificateForSignCloudResponse" />
+    </operation>
+    <operation name="getReceiptForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/getReceiptForSignCloudRequest" message="tns:getReceiptForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/getReceiptForSignCloudResponse" message="tns:getReceiptForSignCloudResponse" />
+    </operation>
+    <operation name="declineCertificateForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/declineCertificateForSignCloudRequest" message="tns:declineCertificateForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/declineCertificateForSignCloudResponse" message="tns:declineCertificateForSignCloudResponse" />
+    </operation>
+    <operation name="disableCertificateForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/disableCertificateForSignCloudRequest" message="tns:disableCertificateForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/disableCertificateForSignCloudResponse" message="tns:disableCertificateForSignCloudResponse" />
+    </operation>
+    <operation name="enableCertificateForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/enableCertificateForSignCloudRequest" message="tns:enableCertificateForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/enableCertificateForSignCloudResponse" message="tns:enableCertificateForSignCloudResponse" />
+    </operation>
+    <operation name="verifySignedFileForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/verifySignedFileForSignCloudRequest" message="tns:verifySignedFileForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/verifySignedFileForSignCloudResponse" message="tns:verifySignedFileForSignCloudResponse" />
+    </operation>
+    <operation name="regenerateAuthorisationCodeForSignCloud">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/regenerateAuthorisationCodeForSignCloudRequest" message="tns:regenerateAuthorisationCodeForSignCloud" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/regenerateAuthorisationCodeForSignCloudResponse" message="tns:regenerateAuthorisationCodeForSignCloudResponse" />
+    </operation>
+    <operation name="getVersion">
+      <input wsam:Action="http://api.esigncloud.mobileid.vn/Services/getVersionRequest" message="tns:getVersion" />
+      <output wsam:Action="http://api.esigncloud.mobileid.vn/Services/getVersionResponse" message="tns:getVersionResponse" />
+    </operation>
+  </portType>
+  <binding name="ServicesPortBinding" type="tns:Services">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="prepareHashSigningForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="authorizeHashSigningForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getSignatureValueForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="prepareCertificateForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="prepareFileForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="authorizeCounterSigningForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getSignedFileForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="changePasscodeForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="forgetPasscodeForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCertificateDetailForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="setCertificateDetailForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="approveCertificateForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="regenerateAuthorizationCodeForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="prepareRenewCertificateForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="prepareChangeCertificateForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="prepareRevokeCertificateForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="uploadFileForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="downloadFileForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="authorizeSingletonSigningForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="assignCertificateForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getReceiptForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="declineCertificateForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="disableCertificateForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="enableCertificateForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="verifySignedFileForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="regenerateAuthorisationCodeForSignCloud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getVersion">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Services">
+    <port name="ServicesPort" binding="tns:ServicesPortBinding">
+      <soap:address location="https://esigncloud.fis.com.vn:10443/eSignCloud/Services" />
+    </port>
+  </service>
+</definitions>

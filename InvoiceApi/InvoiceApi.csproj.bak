@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1774443B-36B7-4F97-AECC-1F25DD01B880}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InvoiceApi</RootNamespace>
+    <AssemblyName>InvoiceApi</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.WebApi">
+      <HintPath>..\packages\Autofac.WebApi2.4.1.0\lib\net45\Autofac.Integration.WebApi.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v12.2.Core">
+      <HintPath>..\..\..\..\Debug_Invoice\Debug 5-5-2017\Debug\DevExpress.Office.v12.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>C:\Users\admin\Downloads\htmlagilitypack.1.7.3\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\packages\NPOI.2.3.0\lib\net40\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\packages\NPOI.2.3.0\lib\net40\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\packages\NPOI.2.3.0\lib\net40\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\packages\NPOI.2.3.0\lib\net40\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="Pkcs11Interop">
+      <HintPath>C:\Users\NAMPV\Desktop\Pkcs11Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="PkiTokenManager">
+      <HintPath>..\..\PkiTokenManager\PkiTokenManager\bin\Debug\PkiTokenManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="VACOMLIB">
+      <HintPath>..\..\GitProject\Lib\VACOMLIB.DLL</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\ErrorLog.txt" />
+    <Content Include="Content\App\ReportDesign\setup.exe" />
+    <Content Include="Content\App\SignInvoice\setup.exe" />
+    <Content Include="Content\report\dangkythanhcong.html" />
+    <Content Include="Content\Scripts\jquery-1.6.4.min.js" />
+    <Content Include="Content\Scripts\jquery.signalR-2.2.3.min.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\report\bc_bkbr1.repx" />
+    <Content Include="Content\report\INCT_TBHUYHD.repx" />
+    <Content Include="Content\report\DeNghiThanhToan.repx" />
+    <Content Include="Content\report\InPhieuThu.repx" />
+    <None Include="Service References\MobiPhoneSmsService\configuration91.svcinfo" />
+    <None Include="Service References\MobiPhoneSmsService\configuration.svcinfo" />
+    <Content Include="Service References\MobiPhoneSmsService\InvoiceApi.MobiPhoneSmsService.CheckamountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MobiPhoneSmsService\InvoiceApi.MobiPhoneSmsService.DeductionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MobiPhoneSmsService\InvoiceApi.MobiPhoneSmsService.DepositResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MobiPhoneSmsService\InvoiceApi.MobiPhoneSmsService.sendResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\MobiPhoneSmsService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Update\3.1.1.0\SQLQuery2.sql" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Attributes\RestAuthorizeAttribute.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BaseApiController.cs" />
+    <Compile Include="Controllers\BcthsdController.cs" />
+    <Compile Include="Controllers\InvoiceApiBravoController.cs" />
+    <Compile Include="Controllers\InvoiceAPIController.cs" />
+    <Compile Include="Controllers\InvoiceController.cs" />
+    <Compile Include="Controllers\LicenseController.cs" />
+    <Compile Include="Controllers\SearchInvoicesController.cs" />
+    <Compile Include="Controllers\SmsController.cs" />
+    <Compile Include="Controllers\TokenController.cs" />
+    <Compile Include="Controllers\TraCuuController.cs" />
+    <Compile Include="Controllers\WbFieldController.cs" />
+    <Compile Include="Controllers\WbTabController.cs" />
+    <Compile Include="Controllers\SystemController.cs" />
+    <Compile Include="Controllers\WbWindowController.cs" />
+    <Compile Include="Data\Domain\dmdvcs.cs" />
+    <Compile Include="Data\Domain\dvpermission.cs" />
+    <Compile Include="Data\Domain\inv_admin.cs" />
+    <Compile Include="Data\Domain\Inv_InvoiceAuth.cs" />
+    <Compile Include="Data\Domain\systemsetting.cs" />
+    <Compile Include="Data\Domain\wb_ctquyen.cs" />
+    <Compile Include="Data\Domain\wb_field.cs" />
+    <Compile Include="Data\Domain\wb_log.cs" />
+    <Compile Include="Data\Domain\wb_log_sms.cs" />
+    <Compile Include="Data\Domain\wb_menu.cs" />
+    <Compile Include="Data\Domain\wb_tab.cs" />
+    <Compile Include="Data\Domain\wb_user.cs" />
+    <Compile Include="Data\Domain\wb_window.cs" />
+    <Compile Include="Data\InvoiceDbContext.cs" />
+    <Compile Include="Data\TracuuHDDTContext.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BaocaoNgayModel.cs" />
+    <Compile Include="Models\ChangePassModel.cs" />
+    <Compile Include="Models\CtdonhangModel.cs" />
+    <Compile Include="Models\CtNhomQuyenModel.cs" />
+    <Compile Include="Models\CtphvModel.cs" />
+    <Compile Include="Models\DkhvModel.cs" />
+    <Compile Include="Models\DmhvModel.cs" />
+    <Compile Include="Models\DpdonhangModel.cs" />
+    <Compile Include="Models\CtgiamtruModel.cs" />
+    <Compile Include="Models\DmhsModel.cs" />
+    <Compile Include="Models\DpphvModel.cs" />
+    <Compile Include="Models\DppttModel.cs" />
+    <Compile Include="Models\Filter.cs" />
+    <Compile Include="Models\FilterModel.cs" />
+    <Compile Include="Models\HpctchamcongModel.cs" />
+    <Compile Include="Models\HpdpchamcongModel.cs" />
+    <Compile Include="Models\LichsuDonHangModel.cs" />
+    <Compile Include="Models\MenuModel.cs" />
+    <Compile Include="Models\NhapXuatTonModel.cs" />
+    <Compile Include="Models\ThutienModel.cs" />
+    <Compile Include="Models\TonkhoModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\MobiPhoneSmsService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Services\AccountService.cs" />
+    <Compile Include="Services\BcthsdService.cs" />
+    <Compile Include="Services\IInvoiceAPIBravoService.cs" />
+    <Compile Include="Services\IInvoiceAPIService.cs" />
+    <Compile Include="Services\ILicenseService.cs" />
+    <Compile Include="Services\ILogSmsService.cs" />
+    <Compile Include="Services\InvoiceAPIBravoService.cs" />
+    <Compile Include="Services\InvoiceAPIService.cs" />
+    <Compile Include="Services\ISearchInvoicesService.cs" />
+    <Compile Include="Services\ISmsService.cs" />
+    <Compile Include="Services\ITokenService.cs" />
+    <Compile Include="Services\ITracuuService.cs" />
+    <Compile Include="Services\IWebHelper.cs" />
+    <Compile Include="Services\LicenseService.cs" />
+    <Compile Include="Services\LogSmsService.cs" />
+    <Compile Include="Services\MemoryCacheManager.cs" />
+    <Compile Include="Services\EmailService.cs" />
+    <Compile Include="Services\IBcthsdService.cs" />
+    <Compile Include="Services\ICacheManager.cs" />
+    <Compile Include="Services\IInvoiceService.cs" />
+    <Compile Include="Services\ILogService.cs" />
+    <Compile Include="Services\INopDbContext.cs" />
+    <Compile Include="Services\InvoiceService.cs" />
+    <Compile Include="Services\IEmailService.cs" />
+    <Compile Include="Services\LogService.cs" />
+    <Compile Include="Services\NopDbContext.cs" />
+    <Compile Include="Services\SearchInvoicesService.cs" />
+    <Compile Include="Services\SmsService.cs" />
+    <Compile Include="Services\TokenService.cs" />
+    <Compile Include="Services\TracuuService.cs" />
+    <Compile Include="Services\WbFieldService.cs" />
+    <Compile Include="Services\IWbFieldService.cs" />
+    <Compile Include="Services\WbTabService.cs" />
+    <Compile Include="Services\IWbTabService.cs" />
+    <Compile Include="Services\IAccountService.cs" />
+    <Compile Include="Services\ISystemService.cs" />
+    <Compile Include="Services\IWbWindowService.cs" />
+    <Compile Include="Services\SystemService.cs" />
+    <Compile Include="Services\WbWindowService.cs" />
+    <Compile Include="Services\WebHelper.cs" />
+    <Compile Include="Util\CachePattern.cs" />
+    <Compile Include="Util\CommonManager.cs" />
+    <Compile Include="Util\DataUtil.cs" />
+    <Compile Include="Util\EncodeXML.cs" />
+    <Compile Include="Util\ExceptionUtility.cs" />
+    <Compile Include="Util\FunctionUtil.cs" />
+    <Compile Include="Util\ISignerProvider.cs" />
+    <Compile Include="Util\Pkcs11SignedXml.cs" />
+    <Compile Include="Util\Pkcs11SignerProvider.cs" />
+    <Compile Include="Util\PrefixedSignedXML.cs" />
+    <Compile Include="Util\ReportUtil.cs" />
+    <Compile Include="Util\ExcelWorkbook.cs" />
+    <Compile Include="Util\UnhandledExceptionLogger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="Content\report\INCT_HP_PTT.repx" />
+    <Content Include="Content\report\bc_nxt1.repx" />
+    <Content Include="Content\report\INHD_TEMP_01GTKT_E.repx" />
+    <Content Include="Content\report\INHD_TEMP_01GTKT_T.repx" />
+    <Content Include="Content\report\INTB_PHHOADON.repx" />
+    <Content Include="Content\report\LicenseInfo.repx" />
+    <Content Include="Content\App\SignInvoice\Application Files\SignInvoiceApplication_1_0_0_16\Newtonsoft.Json.dll.deploy" />
+    <Content Include="Content\App\SignInvoice\Application Files\SignInvoiceApplication_1_0_0_16\SignInvoiceApplication.application" />
+    <Content Include="Content\App\SignInvoice\Application Files\SignInvoiceApplication_1_0_0_16\SignInvoiceApplication.exe.config.deploy" />
+    <Content Include="Content\App\SignInvoice\Application Files\SignInvoiceApplication_1_0_0_16\SignInvoiceApplication.exe.deploy" />
+    <Content Include="Content\App\SignInvoice\Application Files\SignInvoiceApplication_1_0_0_16\SignInvoiceApplication.exe.manifest" />
+    <Content Include="Content\App\SignInvoice\SignInvoiceApplication.application" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\AccountSignature.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.BonusSkins.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.Charts.v12.2.Core.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.CodeParser.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.Data.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.Office.v12.2.Core.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.PivotGrid.v12.2.Core.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.Printing.v12.2.Core.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.RichEdit.v12.2.Core.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.Utils.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.Utils.v12.2.UI.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraBars.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraCharts.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraCharts.v12.2.Extensions.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraCharts.v12.2.Wizard.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraEditors.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraGrid.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraLayout.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraNavBar.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraPivotGrid.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraPrinting.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraReports.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraReports.v12.2.Extensions.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraRichEdit.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraTreeList.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\DevExpress.XtraVerticalGrid.v12.2.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.Data.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.PivotGrid.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.Printing.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.RichEdit.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.Utils.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.Utils.v12.2.UI.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraBars.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraCharts.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraEditors.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraLayout.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraNavBar.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraPivotGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraPrinting.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraReports.v12.2.Extensions.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraReports.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraRichEdit.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraTreeList.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\de\DevExpress.XtraVerticalGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.Data.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.PivotGrid.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.Printing.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.RichEdit.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.Utils.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.Utils.v12.2.UI.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraBars.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraCharts.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraEditors.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraLayout.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraNavBar.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraPivotGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraPrinting.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraReports.v12.2.Extensions.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraReports.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraRichEdit.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraTreeList.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\es\DevExpress.XtraVerticalGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.Data.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.PivotGrid.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.Printing.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.RichEdit.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.Utils.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.Utils.v12.2.UI.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraBars.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraCharts.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraEditors.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraLayout.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraNavBar.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraPivotGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraPrinting.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraReports.v12.2.Extensions.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraReports.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraRichEdit.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraTreeList.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ja\DevExpress.XtraVerticalGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\Newtonsoft.Json.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ReportDesign.application" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ReportDesign.exe.config.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ReportDesign.exe.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ReportDesign.exe.manifest" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.Data.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.PivotGrid.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.Printing.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.RichEdit.v12.2.Core.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.Utils.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.Utils.v12.2.UI.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraBars.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraCharts.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraEditors.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraLayout.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraNavBar.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraPivotGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraPrinting.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraReports.v12.2.Extensions.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraReports.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraRichEdit.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraTreeList.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\Application Files\ReportDesign_1_0_0_19\ru\DevExpress.XtraVerticalGrid.v12.2.resources.dll.deploy" />
+    <Content Include="Content\App\ReportDesign\ReportDesign.application" />
+    <Content Include="Content\report\BangKeBanRa1.repx" />
+    <Content Include="Content\report\bc_thsdhd.repx" />
+    <Content Include="App_Data\Minvoice.pfx" />
+    <Content Include="Content\report\BienBanXoaBo.repx" />
+    <Content Include="Content\report\INCT_BBDC_DD.repx" />
+    <Content Include="Content\report\INCT_BBDC_GT.repx" />
+    <Content Include="Content\report\BC_DMHHVT.repx" />
+    <Content Include="Content\report\BC_DMKH.repx" />
+    <None Include="Properties\PublishProfiles\InvoiceApi.pubxml" />
+    <None Include="Properties\PublishProfiles\ThuhpApi.pubxml" />
+    <None Include="Service References\MobiPhoneSmsService\brandname.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MobiPhoneSmsService\ReceiverProcessService.wsdl" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RsaKey\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MobiPhoneSmsService\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7724</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:18374/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

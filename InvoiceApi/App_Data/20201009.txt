@@ -1,0 +1,145 @@
+********** 09/10/2020 14:22:46 **********
+Exception Type: System.Exception
+Exception: Conversion failed when converting from a character string to uniqueidentifier.
+Source: /System/ExecuteCommand
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.ExecuteCommand(JObject obj, String command) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1951
+   at InvoiceApi.Controllers.SystemController.ExecuteCommand(JObject model) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 290
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 09/10/2020 15:22:15 **********
+Exception Type: System.Exception
+Exception: Conversion failed when converting from a character string to uniqueidentifier.
+Source: /System/ExecuteCommand
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.ExecuteCommand(JObject obj, String command) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1951
+   at InvoiceApi.Controllers.SystemController.ExecuteCommand(JObject model) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 290
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 09/10/2020 15:24:03 **********
+Exception Type: System.Exception
+Exception: Conversion failed when converting from a character string to uniqueidentifier.
+Source: /System/ExecuteCommand
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.ExecuteCommand(JObject obj, String command) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1951
+   at InvoiceApi.Controllers.SystemController.ExecuteCommand(JObject model) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 290
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 09/10/2020 15:25:01 **********
+Exception Type: System.Exception
+Exception: Conversion failed when converting from a character string to uniqueidentifier.
+Source: /System/ExecuteCommand
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.ExecuteCommand(JObject obj, String command) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1951
+   at InvoiceApi.Controllers.SystemController.ExecuteCommand(JObject model) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 290
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 09/10/2020 15:31:46 **********
+Exception Type: System.Exception
+Exception: Conversion failed when converting from a character string to uniqueidentifier.
+Source: /System/ExecuteCommand
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.ExecuteCommand(JObject obj, String command) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1951
+   at InvoiceApi.Controllers.SystemController.ExecuteCommand(JObject model) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 290
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+

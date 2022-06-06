@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<inv:invoice xmlns:inv="http://laphoadon.gdt.gov.vn/2014/09/invoicexml/v1" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+	<inv:invoiceData id="data">
+		<inv:invoiceType>01GTKT</inv:invoiceType>
+		<inv:templateCode>01GTKT0/001</inv:templateCode>
+		<inv:invoiceSeries>DM/18E</inv:invoiceSeries>
+		<inv:invoiceNumber>0003517</inv:invoiceNumber>
+		<inv:invoiceName>Hóa đơn giá trị gia tăng</inv:invoiceName>
+		<inv:invoiceIssuedDate>2018-11-05T00:00:00</inv:invoiceIssuedDate>
+		<inv:signedDate>2018-11-05T13:22:37</inv:signedDate>
+		<inv:currencyCode>VND</inv:currencyCode>
+		<inv:adjustmentType>1</inv:adjustmentType>
+		<inv:payments>
+			<inv:payment>
+				<inv:paymentMethodName>Tiền mặt</inv:paymentMethodName>
+			</inv:payment>
+		</inv:payments>
+		<inv:delivery />
+		<inv:sellerLegalName>Công Ty TNHH Một Thành Viên Đại Mễ</inv:sellerLegalName>
+		<inv:sellerTaxCode>0308545630</inv:sellerTaxCode>
+		<inv:sellerAddressLine>74 Trương Quốc Dung, Phường 10, Quận Phú Nhuận, TP Hồ Chí Minh</inv:sellerAddressLine>
+		<inv:sellerPhoneNumber>01653220942</inv:sellerPhoneNumber>
+		<inv:sellerFaxNumber/>
+		<inv:sellerEmail/>
+		<inv:sellerBankAccount/>
+		<inv:sellerBankName/>
+		<inv:buyerLegalName>CÔNG TY TNHH HÓA ĐƠN ĐIỆN TỬ M-INVOICE</inv:buyerLegalName>
+		<inv:buyerTaxCode>0106026495</inv:buyerTaxCode>
+		<inv:buyerAddressLine>Số nhà 16, ngõ 269/1, đường Giáp Bát, Phường Giáp Bát, Quận Hoàng Mai, TP Hà Nội</inv:buyerAddressLine>
+		<inv:deliveryOrderDate>1900-01-01T00:00:00</inv:deliveryOrderDate>
+		<inv:exchangeRate>1.00 </inv:exchangeRate>
+		<inv:items>
+			<inv:item>
+				<inv:lineNumber>1</inv:lineNumber>
+				<inv:itemCode>AU</inv:itemCode>
+				<inv:itemName>Ăn uống</inv:itemName>
+				<inv:quantity>1.00 </inv:quantity>
+				<inv:itemTotalAmountWithoutVat>438182 </inv:itemTotalAmountWithoutVat>
+				<inv:vatPercentage>10</inv:vatPercentage>
+				<inv:vatAmount>43818 </inv:vatAmount>
+				<inv:unitPrice>438181.82 </inv:unitPrice>
+				<inv:promotion>0</inv:promotion>
+			</inv:item>
+		</inv:items>
+		<inv:invoiceTaxBreakdowns>
+			<inv:invoiceTaxBreakdown>
+				<inv:vatPercentage>10</inv:vatPercentage>
+			</inv:invoiceTaxBreakdown>
+		</inv:invoiceTaxBreakdowns>
+		<inv:totalAmountWithoutVAT>438182 </inv:totalAmountWithoutVAT>
+		<inv:totalVATAmount>43818 </inv:totalVATAmount>
+		<inv:totalAmountWithVAT>482000 </inv:totalAmountWithVAT>
+		<inv:totalAmountWithVATInWords>Bốn trăm tám mươi hai nghìn đồng chẵn.</inv:totalAmountWithVATInWords>
+		<inv:totalAmountInWordsUnsignNormal>Bon tram tam muoi hai nghin dong chan.</inv:totalAmountInWordsUnsignNormal>
+		<inv:discountAmount>0 </inv:discountAmount>
+		<inv:totalAmountWithVATFrn>482000 </inv:totalAmountWithVATFrn>
+		<inv:userDefines>
+			<![CDATA[<TransactionID>00D4505BA306E6EP4E5A6B0218C0235F8455F576E</TransactionID><InvoiceRefID>eca8bdbe-f053-4338-a26a-cafde52ea2a6</InvoiceRefID><InvoiceTemplateID>f8e4af52-f18e-4824-b113-c5ce17b215d3</InvoiceTemplateID><MainCurrency>VND</MainCurrency><UnitPriceDecimalDigits>2</UnitPriceDecimalDigits><UnitPriceOCDecimalDigits>2</UnitPriceOCDecimalDigits><QuantityDecimalDigits>2</QuantityDecimalDigits><AmountDecimalDigits>0</AmountDecimalDigits><AmountOCDecimalDigits>2</AmountOCDecimalDigits><ExchangRateDecimalDigits>2</ExchangRateDecimalDigits><CoefficientDecimalDigits>2</CoefficientDecimalDigits><AccountObjectCode>M-INVOICE</AccountObjectCode><UserItems><UserItem><LineNumber>1</LineNumber><DiscountRate>0.00 </DiscountRate><DiscountAmountOC>0 </DiscountAmountOC><DiscountAmount>0 </DiscountAmount><InventoryItemType>0</InventoryItemType><RowType>0</RowType></UserItem></UserItems>]]>
+		</inv:userDefines>
+	</inv:invoiceData>
+	<inv:controlData>
+		<inv:systemCode>LHD_MISA</inv:systemCode>
+	</inv:controlData>
+	<Signature Id="seller" xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+			<Reference URI="#data">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<DigestValue>C14DdxPwCKODHp8qn3ex49Am9JA=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>cBBgUf7yBz/Ju6ZtmCvYAmdJIiQjjqmigja5oFWbUV0YtIQUxmamEby3i/5IalUsTuNjybBHFOfoiHmGQS2zheXlyqNVo1KviZQnk+c6YMIFh32/AxzBDk/8ESa3Q/KY7aqQqI6cUQ4XrgeptonkCP0gP+kFpxlcMRyk2SKcT2k=</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509SubjectName>C=VN, S=HỒ CHÍ MINH, L=Q.Phú Nhuận, CN=CÔNG TY TNHH MỘT THÀNH VIÊN ĐẠI MỄ, OID.0.9.2342.19200300.100.1.1=MST:0308545630</X509SubjectName>
+				<X509Certificate>MIIEMTCCAxmgAwIBAgIQVAgevBxCE2t5qjI/NE+UxDANBgkqhkiG9w0BAQUFADBLMQswCQYDVQQGEwJWTjEoMCYGA1UEChMfQ29uZyB0eSBjbyBwaGFuIGNodSBreSBzbyBWSSBOQTESMBAGA1UEAxMJU21hcnRTaWduMB4XDTE4MDEwOTA3NDMzMFoXDTE5MDcxMjA3NDMzMFowgZYxHjAcBgoJkiaJk/IsZAEBDA5NU1Q6MDMwODU0NTYzMDE1MDMGA1UEAwwsQ8OUTkcgVFkgVE5ISCBN4buYVCBUSMOATkggVknDik4gxJDhuqBJIE3hu4QxFzAVBgNVBAcMDlEuUGjDuiBOaHXhuq1uMRcwFQYDVQQIDA5I4buSIENIw40gTUlOSDELMAkGA1UEBhMCVk4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALKJpGUPEqy1E3QhSl9HPVCxXteQg8heg+PShbwXIk+sOM6sRJmFko/UfGvYlNt21hEAlIEOoK/zuUGsIH+44Stv+9Q4d8caF9q8YH5Zg7u96UYzXeZ+9JltAPy9TRj8hLq9UUSLI03FYDkyRDjCuzDsBRQCPd7S3DiWI2zOEZWbAgMBAAGjggFHMIIBQzA5BggrBgEFBQcBAQQtMCswKQYIKwYBBQUHMAGGHWh0dHA6Ly9vY3NwMS5zbWFydHNpZ24uY29tLnZuMB0GA1UdDgQWBBQRmTQ9CrX2Fl7FR7yPQyo4duftoTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFGL22cgV0v+8u1QgmCiOmbwerpYkMH0GA1UdHwR2MHQwcqAfoB2GG2h0dHA6Ly9jcmwuc21hcnRzaWduLmNvbS52bqJPpE0wSzESMBAGA1UEAwwJU21hcnRTaWduMSgwJgYDVQQKDB9Db25nIHR5IGNvIHBoYW4gY2h1IGt5IHNvIFZJIE5BMQswCQYDVQQGEwJWTjAOBgNVHQ8BAf8EBAMCA8gwKQYDVR0lBCIwIAYIKwYBBQUHAwIGCCsGAQUFBwMEBgorBgEEAYI3CgMMMA0GCSqGSIb3DQEBBQUAA4IBAQAecbywWEjSczJeMeRWDoVj2rJiBSEKzDtS9yC5X46IIGuiDWitdp4MV12eAafHWhGKRYHuyYvnVrgm3AyE/th9KaZnmoaZxJLsBoCQ0qcx/6f76k0SoNZn2nTgPHjEZfA0PA3BAlbmUS1/6e5o9jhx8LOHqpTSqVoyRo0KKMfjXwnKm/t6kcGL8nZMamD8ZvC/90dipWhSZyVCkterTIZC16H0gtopqMr9duph3bi2sFc10TccCLDIGhpR6YlG616nkvikBa7s5Pls81A3HycsCr2DOLgN0dmlCpEHa/3EZ3iRiko1GJb5Ni4hyeSVFHtSg9DaSMgJxJr7sOYT+yH7</X509Certificate>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</inv:invoice>

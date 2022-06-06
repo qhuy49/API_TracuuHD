@@ -1,0 +1,249 @@
+********** 21/08/2020 10:21:55 **********
+Exception Type: System.InvalidOperationException
+Exception: Reset() called on connector with state Connecting
+Source: /System/GetInfoMST
+Stack Trace: 
+   at Npgsql.NpgsqlConnector.Reset()
+   at Npgsql.ConnectorPool.Release(NpgsqlConnector connector)
+   at Npgsql.NpgsqlConnection.Close(Boolean wasBroken)
+   at Npgsql.NpgsqlConnection.Close()
+   at MinvoiceLib.Data.MInvoiceDbContext.CloseTransaction() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Data\MInvoiceDbContext.cs:line 998
+   at MinvoiceLib.Services.SystemService.GetInfoMST(String tax) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 3449
+   at InvoiceApi.Controllers.SystemController.GetInfoMST(JObject model) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 710
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 21/08/2020 10:23:16 **********
+Exception Type: System.InvalidOperationException
+Exception: Reset() called on connector with state Fetching
+Source: /System/GetInfoMST
+Stack Trace: 
+   at Npgsql.NpgsqlConnector.Reset()
+   at Npgsql.ConnectorPool.Release(NpgsqlConnector connector)
+   at Npgsql.NpgsqlConnection.Close(Boolean wasBroken)
+   at Npgsql.NpgsqlConnection.Close()
+   at MinvoiceLib.Data.MInvoiceDbContext.CloseTransaction() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Data\MInvoiceDbContext.cs:line 998
+   at MinvoiceLib.Services.SystemService.GetInfoMST(String tax) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 3449
+   at InvoiceApi.Controllers.SystemController.GetInfoMST(JObject model) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 710
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 21/08/2020 10:25:57 **********
+Exception Type: System.InvalidOperationException
+Exception: Reset() called on connector with state Connecting
+Source: /System/GetInfoMST
+Stack Trace: 
+   at Npgsql.NpgsqlConnector.Reset()
+   at Npgsql.ConnectorPool.Release(NpgsqlConnector connector)
+   at Npgsql.NpgsqlConnection.Close(Boolean wasBroken)
+   at Npgsql.NpgsqlConnection.Close()
+   at MinvoiceLib.Data.MInvoiceDbContext.CloseTransaction() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Data\MInvoiceDbContext.cs:line 999
+   at MinvoiceLib.Services.SystemService.GetInfoMST(String tax) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 3449
+   at InvoiceApi.Controllers.SystemController.GetInfoMST(JObject model) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 710
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 21/08/2020 10:32:11 **********
+Exception Type: System.OutOfMemoryException
+Exception: Exception of type 'System.OutOfMemoryException' was thrown.
+Source: /System/GetInfoMST
+Stack Trace: 
+   at Npgsql.NpgsqlReadBuffer..ctor(NpgsqlConnector connector, Stream stream, Int32 size, Encoding textEncoding)
+   at Npgsql.NpgsqlReadBuffer.AllocateOversize(Int32 count)
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass161_0.<<ReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlConnector.<ExecuteInternalCommand>d__204.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlTransaction.<Rollback>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlTransaction.Rollback()
+   at Npgsql.NpgsqlTransaction.Dispose(Boolean disposing)
+   at System.Data.Common.DbTransaction.Dispose()
+   at MinvoiceLib.Data.MInvoiceDbContext.CloseTransaction() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Data\MInvoiceDbContext.cs:line 993
+   at MinvoiceLib.Services.SystemService.<GetInfoMST>d__56.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 3449
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<GetInfoMST>d__56.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 710
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 21/08/2020 10:34:09 **********
+Exception Type: System.OutOfMemoryException
+Exception: Exception of type 'System.OutOfMemoryException' was thrown.
+Source: /System/GetInfoMST
+Stack Trace: 
+   at Npgsql.NpgsqlReadBuffer..ctor(NpgsqlConnector connector, Stream stream, Int32 size, Encoding textEncoding)
+   at Npgsql.NpgsqlReadBuffer.AllocateOversize(Int32 count)
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass161_0.<<ReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlConnector.<ExecuteInternalCommand>d__204.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlTransaction.<Rollback>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlTransaction.Rollback()
+   at Npgsql.NpgsqlTransaction.Dispose(Boolean disposing)
+   at System.Data.Common.DbTransaction.Dispose()
+   at MinvoiceLib.Data.MInvoiceDbContext.CloseTransaction() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Data\MInvoiceDbContext.cs:line 993
+   at MinvoiceLib.Services.SystemService.<GetInfoMST>d__56.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 3449
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<GetInfoMST>d__56.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 710
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 21/08/2020 10:38:36 **********
+Exception Type: System.OutOfMemoryException
+Exception: Exception of type 'System.OutOfMemoryException' was thrown.
+Source: /System/GetInfoMST
+Stack Trace: 
+   at Npgsql.NpgsqlReadBuffer..ctor(NpgsqlConnector connector, Stream stream, Int32 size, Encoding textEncoding)
+   at Npgsql.NpgsqlReadBuffer.AllocateOversize(Int32 count)
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass161_0.<<ReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlConnector.<ExecuteInternalCommand>d__204.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlTransaction.<Rollback>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlTransaction.Rollback()
+   at Npgsql.NpgsqlTransaction.Dispose(Boolean disposing)
+   at System.Data.Common.DbTransaction.Dispose()
+   at MinvoiceLib.Data.MInvoiceDbContext.CloseTransaction() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Data\MInvoiceDbContext.cs:line 992
+   at MinvoiceLib.Services.SystemService.<GetInfoMST>d__56.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 3449
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<GetInfoMST>d__56.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2 - Copy\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 710
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+

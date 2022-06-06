@@ -1,0 +1,30 @@
+********** 7/13/2021 11:53:38 AM **********
+Exception Type: System.ObjectDisposedException
+Exception: Cannot access a disposed object.
+Source: /Account/login
+Stack Trace: 
+   at System.Security.Cryptography.HashAlgorithm.ComputeHash(Byte[] buffer)
+   at InvoiceApi.Services.AccountService.GenerateToken(String username, String password, String ip, String userAgent, Int64 ticks) in D:\M-Invoice\ProjectTraCuuMinvoice\APINew\TracuuhoadonAPI-master\InvoiceApi\Services\AccountService.cs:line 79
+   at InvoiceApi.Services.AccountService.Login(String mst, String username, String password, String ipAddress, String userAgent) in D:\M-Invoice\ProjectTraCuuMinvoice\APINew\TracuuhoadonAPI-master\InvoiceApi\Services\AccountService.cs:line 57
+   at InvoiceApi.Controllers.AccountController.Login(JObject model) in D:\M-Invoice\ProjectTraCuuMinvoice\APINew\TracuuhoadonAPI-master\InvoiceApi\Controllers\AccountController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+

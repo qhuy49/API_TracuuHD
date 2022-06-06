@@ -1,0 +1,156 @@
+********** 20/04/2021 11:48:21 AM **********
+Inner Exception Type: Autofac.Core.DependencyResolutionException
+Inner Exception: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'InvoiceApi.Controllers.Excel1Controller' can be invoked with the available services and parameters:
+Cannot resolve parameter 'InvoiceApi.IServices.IExcel1Service excel1Service' of constructor 'Void .ctor(InvoiceApi.IServices.IExcel1Service)'.
+Inner Source: Autofac
+Inner Stack Trace: 
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Integration.WebApi.AutofacWebApiDependencyScope.GetService(Type serviceType)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.GetInstanceOrActivator(HttpRequestMessage request, Type controllerType, Func`1& activator)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+Exception Type: System.InvalidOperationException
+Exception: An error occurred when trying to create a controller of type 'Excel1Controller'. Make sure that the controller has a parameterless public constructor.
+Source: /Excel/UploadExcel1
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 20/04/2021 11:49:20 AM **********
+Inner Exception Type: Autofac.Core.DependencyResolutionException
+Inner Exception: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'InvoiceApi.Controllers.Excel1Controller' can be invoked with the available services and parameters:
+Cannot resolve parameter 'InvoiceApi.IServices.IExcel1Service excel1Service' of constructor 'Void .ctor(InvoiceApi.IServices.IExcel1Service)'.
+Inner Source: Autofac
+Inner Stack Trace: 
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Integration.WebApi.AutofacWebApiDependencyScope.GetService(Type serviceType)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.GetInstanceOrActivator(HttpRequestMessage request, Type controllerType, Func`1& activator)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+Exception Type: System.InvalidOperationException
+Exception: An error occurred when trying to create a controller of type 'Excel1Controller'. Make sure that the controller has a parameterless public constructor.
+Source: /Excel/UploadExcel1
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 20/04/2021 11:49:59 AM **********
+Inner Exception Type: Autofac.Core.DependencyResolutionException
+Inner Exception: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'InvoiceApi.Controllers.Excel1Controller' can be invoked with the available services and parameters:
+Cannot resolve parameter 'InvoiceApi.IServices.IExcel1Service excel1Service' of constructor 'Void .ctor(InvoiceApi.IServices.IExcel1Service)'.
+Inner Source: Autofac
+Inner Stack Trace: 
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Integration.WebApi.AutofacWebApiDependencyScope.GetService(Type serviceType)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.GetInstanceOrActivator(HttpRequestMessage request, Type controllerType, Func`1& activator)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+Exception Type: System.InvalidOperationException
+Exception: An error occurred when trying to create a controller of type 'Excel1Controller'. Make sure that the controller has a parameterless public constructor.
+Source: /Excel/UploadExcel1
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 20/04/2021 11:50:43 AM **********
+Inner Exception Type: Autofac.Core.DependencyResolutionException
+Inner Exception: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'InvoiceApi.Controllers.Excel1Controller' can be invoked with the available services and parameters:
+Cannot resolve parameter 'InvoiceApi.IServices.IExcel1Service excel1Service' of constructor 'Void .ctor(InvoiceApi.IServices.IExcel1Service)'.
+Inner Source: Autofac
+Inner Stack Trace: 
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Integration.WebApi.AutofacWebApiDependencyScope.GetService(Type serviceType)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.GetInstanceOrActivator(HttpRequestMessage request, Type controllerType, Func`1& activator)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+Exception Type: System.InvalidOperationException
+Exception: An error occurred when trying to create a controller of type 'Excel1Controller'. Make sure that the controller has a parameterless public constructor.
+Source: /Excel/UploadExcel1
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 20/04/2021 11:52:21 AM **********
+Inner Exception Type: Autofac.Core.DependencyResolutionException
+Inner Exception: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'InvoiceApi.Controllers.Excel1Controller' can be invoked with the available services and parameters:
+Cannot resolve parameter 'InvoiceApi.IServices.IExcel1Service excel1Service' of constructor 'Void .ctor(InvoiceApi.IServices.IExcel1Service)'.
+Inner Source: Autofac
+Inner Stack Trace: 
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Integration.WebApi.AutofacWebApiDependencyScope.GetService(Type serviceType)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.GetInstanceOrActivator(HttpRequestMessage request, Type controllerType, Func`1& activator)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+Exception Type: System.InvalidOperationException
+Exception: An error occurred when trying to create a controller of type 'Excel1Controller'. Make sure that the controller has a parameterless public constructor.
+Source: /Excel/UploadExcel1
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 20/04/2021 11:56:10 AM **********
+Inner Exception Type: Autofac.Core.DependencyResolutionException
+Inner Exception: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'InvoiceApi.Controllers.Excel1Controller' can be invoked with the available services and parameters:
+Cannot resolve parameter 'InvoiceApi.IServices.IExcel1Service excel1Service' of constructor 'Void .ctor(InvoiceApi.IServices.IExcel1Service)'.
+Inner Source: Autofac
+Inner Stack Trace: 
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Integration.WebApi.AutofacWebApiDependencyScope.GetService(Type serviceType)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.GetInstanceOrActivator(HttpRequestMessage request, Type controllerType, Func`1& activator)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+Exception Type: System.InvalidOperationException
+Exception: An error occurred when trying to create a controller of type 'Excel1Controller'. Make sure that the controller has a parameterless public constructor.
+Source: /Excel/UploadExcel1
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+

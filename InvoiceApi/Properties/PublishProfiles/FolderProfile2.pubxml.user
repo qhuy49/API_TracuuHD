@@ -1,0 +1,825 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Project M-Invoice\tracuu1</_PublishTargetUrl>
+<<<<<<< HEAD
+    <History>True|2022-01-12T03:05:55.2216363Z;True|2022-01-10T16:03:01.5871643+07:00;True|2021-12-07T21:01:31.6564290+07:00;True|2021-12-07T21:00:59.9880683+07:00;True|2021-12-06T21:27:01.1761116+07:00;True|2021-12-06T21:26:28.8441630+07:00;True|2021-12-06T19:52:12.8245910+07:00;True|2021-12-03T16:11:24.6084560+07:00;True|2021-11-29T16:20:01.4875595+07:00;True|2021-11-27T16:24:58.8522150+07:00;True|2021-11-27T10:26:19.9982433+07:00;True|2021-11-27T10:25:42.3367431+07:00;True|2021-11-25T19:25:05.2293413+07:00;True|2021-11-10T16:24:29.2804767+07:00;True|2021-11-10T16:23:06.4907884+07:00;True|2021-11-10T13:35:28.2660514+07:00;True|2021-11-10T10:45:34.4112905+07:00;True|2021-10-13T09:35:01.9263099+07:00;True|2021-10-08T21:57:13.4409237+07:00;True|2021-10-08T21:50:44.3727657+07:00;True|2021-10-08T18:03:54.4121678+07:00;True|2021-10-08T09:25:05.2307473+07:00;True|2021-08-26T23:14:45.4132544+07:00;True|2021-08-25T11:36:29.7944892+07:00;True|2021-08-20T08:56:16.2661311+07:00;True|2021-08-20T08:54:47.1478583+07:00;True|2021-08-14T11:07:55.8482551+07:00;True|2021-08-14T11:04:25.7249240+07:00;True|2021-08-14T11:00:34.4754320+07:00;True|2021-08-14T10:25:01.3030180+07:00;True|2021-08-14T10:23:10.1049866+07:00;True|2021-08-14T10:00:27.6654857+07:00;True|2021-08-14T08:18:14.5847654+07:00;True|2021-08-14T07:32:37.2618243+07:00;True|2021-08-14T07:26:21.1402054+07:00;True|2021-08-14T07:19:21.7996483+07:00;True|2021-08-14T07:09:07.8220774+07:00;True|2021-08-14T06:37:52.6909302+07:00;True|2021-08-14T06:21:30.8230572+07:00;True|2021-08-14T04:49:02.4977100+07:00;True|2021-08-14T04:44:37.9221592+07:00;True|2021-08-14T04:04:41.0507503+07:00;True|2021-08-14T03:47:34.2543854+07:00;True|2021-08-14T03:42:12.4500338+07:00;True|2021-08-14T03:16:23.4919785+07:00;True|2021-08-14T02:49:17.5937332+07:00;True|2021-08-14T00:29:51.7980742+07:00;True|2021-08-14T00:19:58.8359368+07:00;True|2021-08-13T23:48:37.4959297+07:00;True|2021-08-13T23:44:53.3443711+07:00;True|2021-08-13T23:35:08.1316732+07:00;True|2021-08-13T23:33:21.6862293+07:00;True|2021-08-13T23:31:29.7801713+07:00;True|2021-08-13T23:29:23.4056073+07:00;True|2021-08-13T23:27:05.1834439+07:00;True|2021-08-13T23:26:50.2488396+07:00;True|2021-08-13T23:26:02.4022057+07:00;True|2021-08-13T23:22:13.3966742+07:00;True|2021-08-13T23:03:14.6848624+07:00;True|2021-08-13T22:52:42.5806156+07:00;True|2021-08-13T22:44:25.7064714+07:00;True|2021-08-13T22:16:55.6844894+07:00;True|2021-08-13T22:10:35.9946798+07:00;True|2021-08-13T22:06:58.5818109+07:00;True|2021-08-13T22:05:55.5301800+07:00;True|2021-08-13T22:03:55.6912909+07:00;True|2021-08-13T21:59:23.3801701+07:00;True|2021-08-13T21:57:44.9853021+07:00;True|2021-08-13T21:53:19.1538146+07:00;True|2021-08-13T21:47:17.1090295+07:00;True|2021-08-13T21:46:32.8687500+07:00;False|2021-08-13T21:44:26.1765995+07:00;False|2021-08-13T21:42:54.3707408+07:00;True|2021-08-13T21:11:17.3316189+07:00;True|2021-08-13T21:06:29.4430032+07:00;True|2021-08-13T20:48:10.5725496+07:00;True|2021-08-13T20:44:10.0298777+07:00;True|2021-08-13T20:43:11.6301141+07:00;True|2021-08-13T20:39:47.2004458+07:00;True|2021-08-13T20:36:13.3079852+07:00;True|2021-08-13T20:35:47.6659078+07:00;True|2021-08-13T20:34:20.9550054+07:00;True|2021-08-13T20:31:21.3428046+07:00;True|2021-08-13T20:22:42.7464937+07:00;True|2021-08-13T20:21:44.7935337+07:00;True|2021-08-13T20:21:15.7221831+07:00;True|2021-08-13T20:20:39.2230017+07:00;True|2021-08-13T17:38:33.4786326+07:00;True|2021-08-13T17:36:48.7059772+07:00;True|2021-08-13T17:36:22.2841757+07:00;True|2021-08-13T17:35:56.0690917+07:00;True|2021-08-12T23:35:43.3731595+07:00;True|2021-08-12T22:54:15.9917677+07:00;True|2021-08-12T14:10:27.9709472+07:00;True|2021-08-12T10:52:05.5057777+07:00;True|2021-08-12T10:48:01.8596020+07:00;True|2021-08-12T10:32:25.0815484+07:00;</History>
+=======
+    <History>True|2021-12-21T08:36:26.9481172Z;True|2021-12-20T19:58:18.4363363+07:00;True|2021-12-17T20:48:01.7060027+07:00;True|2021-12-17T20:11:30.5105029+07:00;True|2021-12-17T19:57:39.5801851+07:00;True|2021-12-07T21:01:31.6564290+07:00;True|2021-12-07T21:00:59.9880683+07:00;True|2021-12-06T21:27:01.1761116+07:00;True|2021-12-06T21:26:28.8441630+07:00;True|2021-12-06T19:52:12.8245910+07:00;True|2021-12-03T16:11:24.6084560+07:00;True|2021-11-29T16:20:01.4875595+07:00;True|2021-11-27T16:24:58.8522150+07:00;True|2021-11-27T10:26:19.9982433+07:00;True|2021-11-27T10:25:42.3367431+07:00;True|2021-11-25T19:25:05.2293413+07:00;True|2021-11-10T16:24:29.2804767+07:00;True|2021-11-10T16:23:06.4907884+07:00;True|2021-11-10T13:35:28.2660514+07:00;True|2021-11-10T10:45:34.4112905+07:00;True|2021-10-13T09:35:01.9263099+07:00;True|2021-10-08T21:57:13.4409237+07:00;True|2021-10-08T21:50:44.3727657+07:00;True|2021-10-08T18:03:54.4121678+07:00;True|2021-10-08T09:25:05.2307473+07:00;True|2021-08-26T23:14:45.4132544+07:00;True|2021-08-25T11:36:29.7944892+07:00;True|2021-08-20T08:56:16.2661311+07:00;True|2021-08-20T08:54:47.1478583+07:00;True|2021-08-14T11:07:55.8482551+07:00;True|2021-08-14T11:04:25.7249240+07:00;True|2021-08-14T11:00:34.4754320+07:00;True|2021-08-14T10:25:01.3030180+07:00;True|2021-08-14T10:23:10.1049866+07:00;True|2021-08-14T10:00:27.6654857+07:00;True|2021-08-14T08:18:14.5847654+07:00;True|2021-08-14T07:32:37.2618243+07:00;True|2021-08-14T07:26:21.1402054+07:00;True|2021-08-14T07:19:21.7996483+07:00;True|2021-08-14T07:09:07.8220774+07:00;True|2021-08-14T06:37:52.6909302+07:00;True|2021-08-14T06:21:30.8230572+07:00;True|2021-08-14T04:49:02.4977100+07:00;True|2021-08-14T04:44:37.9221592+07:00;True|2021-08-14T04:04:41.0507503+07:00;True|2021-08-14T03:47:34.2543854+07:00;True|2021-08-14T03:42:12.4500338+07:00;True|2021-08-14T03:16:23.4919785+07:00;True|2021-08-14T02:49:17.5937332+07:00;True|2021-08-14T00:29:51.7980742+07:00;True|2021-08-14T00:19:58.8359368+07:00;True|2021-08-13T23:48:37.4959297+07:00;True|2021-08-13T23:44:53.3443711+07:00;True|2021-08-13T23:35:08.1316732+07:00;True|2021-08-13T23:33:21.6862293+07:00;True|2021-08-13T23:31:29.7801713+07:00;True|2021-08-13T23:29:23.4056073+07:00;True|2021-08-13T23:27:05.1834439+07:00;True|2021-08-13T23:26:50.2488396+07:00;True|2021-08-13T23:26:02.4022057+07:00;True|2021-08-13T23:22:13.3966742+07:00;True|2021-08-13T23:03:14.6848624+07:00;True|2021-08-13T22:52:42.5806156+07:00;True|2021-08-13T22:44:25.7064714+07:00;True|2021-08-13T22:16:55.6844894+07:00;True|2021-08-13T22:10:35.9946798+07:00;True|2021-08-13T22:06:58.5818109+07:00;True|2021-08-13T22:05:55.5301800+07:00;True|2021-08-13T22:03:55.6912909+07:00;True|2021-08-13T21:59:23.3801701+07:00;True|2021-08-13T21:57:44.9853021+07:00;True|2021-08-13T21:53:19.1538146+07:00;True|2021-08-13T21:47:17.1090295+07:00;True|2021-08-13T21:46:32.8687500+07:00;False|2021-08-13T21:44:26.1765995+07:00;False|2021-08-13T21:42:54.3707408+07:00;True|2021-08-13T21:11:17.3316189+07:00;True|2021-08-13T21:06:29.4430032+07:00;True|2021-08-13T20:48:10.5725496+07:00;True|2021-08-13T20:44:10.0298777+07:00;True|2021-08-13T20:43:11.6301141+07:00;True|2021-08-13T20:39:47.2004458+07:00;True|2021-08-13T20:36:13.3079852+07:00;True|2021-08-13T20:35:47.6659078+07:00;True|2021-08-13T20:34:20.9550054+07:00;True|2021-08-13T20:31:21.3428046+07:00;True|2021-08-13T20:22:42.7464937+07:00;True|2021-08-13T20:21:44.7935337+07:00;True|2021-08-13T20:21:15.7221831+07:00;True|2021-08-13T20:20:39.2230017+07:00;True|2021-08-13T17:38:33.4786326+07:00;True|2021-08-13T17:36:48.7059772+07:00;True|2021-08-13T17:36:22.2841757+07:00;True|2021-08-13T17:35:56.0690917+07:00;True|2021-08-12T23:35:43.3731595+07:00;True|2021-08-12T22:54:15.9917677+07:00;True|2021-08-12T14:10:27.9709472+07:00;True|2021-08-12T10:52:05.5057777+07:00;True|2021-08-12T10:48:01.8596020+07:00;True|2021-08-12T10:32:25.0815484+07:00;</History>
+>>>>>>> 300753e329f883a14857c1f52f91ad1f4725feb8
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/Minvoice.pfx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="bin/AccountSignature.dll">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="bin/amd64/KernelTraceControl.dll">
+      <publishTime>08/13/2021 16:24:19</publishTime>
+    </File>
+    <File Include="bin/amd64/msdia140.dll">
+      <publishTime>08/13/2021 16:24:19</publishTime>
+    </File>
+    <File Include="bin/App_Data/Minvoice.pfx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="bin/Autofac.dll">
+      <publishTime>08/13/2021 16:24:12</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.WebApi.dll">
+      <publishTime>08/13/2021 16:24:12</publishTime>
+    </File>
+    <File Include="bin/Ben.Demystifier.dll">
+      <publishTime>08/13/2021 16:24:12</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>08/13/2021 16:24:12</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.pdb">
+      <publishTime>08/13/2021 16:24:12</publishTime>
+    </File>
+    <File Include="bin/Content/report/0303841523_1C21TBK.repx">
+      <publishTime>11/22/2021 15:03:44</publishTime>
+    </File>
+    <File Include="bin/Content/report/BienBanXoaBo.repx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="bin/Content/report/INCT_BBDC_DD.repx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="bin/Content/report/INCT_BBDC_GT.repx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="bin/Content/report/INCT_BBTT.repx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Data.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:29:55</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Office.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Pdf.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.PivotGrid.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Printing.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.RichEdit.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Sparkline.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:02</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Utils.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:02</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraBars.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:05</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraCharts.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:05</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraEditors.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraLayout.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraPrinting.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraReports.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraTreeList.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Charts.v16.1.Core.dll">
+      <publishTime>11/12/2021 16:30:05</publishTime>
+    </File>
+    <File Include="bin/DevExpress.CodeParser.v16.1.dll">
+      <publishTime>11/12/2021 16:29:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v16.1.dll">
+      <publishTime>11/12/2021 16:29:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v16.1.Core.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Pdf.v16.1.Core.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Pdf.v16.1.Drawing.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.PivotGrid.v16.1.Core.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v16.1.Core.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v16.1.Core.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Sparkline.v16.1.Core.dll">
+      <publishTime>11/12/2021 16:30:02</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v16.1.dll">
+      <publishTime>11/12/2021 16:30:02</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraBars.v16.1.dll">
+      <publishTime>11/12/2021 16:30:05</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v16.1.dll">
+      <publishTime>11/12/2021 16:30:05</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraEditors.v16.1.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v16.1.Core.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraLayout.v16.1.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraPrinting.v16.1.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v16.1.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraTreeList.v16.1.dll">
+      <publishTime>11/12/2021 16:30:10</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>08/13/2021 16:24:12</publishTime>
+    </File>
+    <File Include="bin/EncodeMinvocie.dll">
+      <publishTime>08/13/2021 16:24:07</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>08/13/2021 16:24:16</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>08/13/2021 16:24:16</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>08/13/2021 16:24:14</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:29:55</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Office.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Pdf.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.PivotGrid.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Printing.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.RichEdit.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Sparkline.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:02</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Utils.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:02</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraBars.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:05</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraCharts.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:05</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraEditors.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraLayout.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraPrinting.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraReports.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraTreeList.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:10</publishTime>
+    </File>
+    <File Include="bin/ExcelDataReader.DataSet.dll">
+      <publishTime>08/13/2021 16:24:16</publishTime>
+    </File>
+    <File Include="bin/ExcelDataReader.DataSet.pdb">
+      <publishTime>08/13/2021 16:24:16</publishTime>
+    </File>
+    <File Include="bin/ExcelDataReader.dll">
+      <publishTime>08/13/2021 16:24:16</publishTime>
+    </File>
+    <File Include="bin/ExcelDataReader.pdb">
+      <publishTime>08/13/2021 16:24:16</publishTime>
+    </File>
+    <File Include="bin/ExcelNumberFormat.dll">
+      <publishTime>08/13/2021 16:24:16</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Auth.dll">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Auth.pdb">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Auth.PlatformServices.dll">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Core.dll">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Core.pdb">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.dll">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Drive.v2.dll">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Drive.v2.pdb">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.pdb">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.PlatformServices.dll">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>08/13/2021 16:24:07</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>08/13/2021 16:24:21</publishTime>
+    </File>
+    <File Include="bin/InvoiceApi.dll">
+<<<<<<< HEAD
+      <publishTime>01/12/2022 10:04:01</publishTime>
+    </File>
+    <File Include="bin/InvoiceApi.pdb">
+      <publishTime>01/12/2022 10:04:01</publishTime>
+=======
+      <publishTime>12/21/2021 15:22:30</publishTime>
+    </File>
+    <File Include="bin/InvoiceApi.pdb">
+      <publishTime>12/21/2021 15:22:30</publishTime>
+>>>>>>> 300753e329f883a14857c1f52f91ad1f4725feb8
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:29:55</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Office.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Pdf.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.PivotGrid.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Printing.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.RichEdit.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Sparkline.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:02</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Utils.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:02</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraBars.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:05</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraCharts.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:05</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraEditors.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraLayout.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraPrinting.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraReports.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraTreeList.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>11/25/2019 10:57:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>11/25/2019 10:57:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>11/25/2019 10:57:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Diagnostics.FastSerialization.dll">
+      <publishTime>08/13/2021 16:24:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Diagnostics.Tracing.TraceEvent.dll">
+      <publishTime>08/13/2021 16:24:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>12/03/2021 01:50:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>12/03/2021 01:52:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>12/03/2021 01:57:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IO.RecyclableMemoryStream.dll">
+      <publishTime>08/13/2021 16:24:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Cors.dll">
+      <publishTime>05/07/2021 23:09:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>08/13/2021 16:24:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>05/07/2021 23:08:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>05/07/2021 23:09:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>08/13/2021 16:24:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>05/07/2021 23:08:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.ConnectionInfo.dll">
+      <publishTime>08/13/2021 16:24:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.ConnectionInfoExtended.dll">
+      <publishTime>08/13/2021 16:24:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.Dmf.dll">
+      <publishTime>02/21/2014 11:44:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.Management.Sdk.Sfc.dll">
+      <publishTime>08/13/2021 16:24:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.RegSvrEnum.dll">
+      <publishTime>04/20/2015 23:48:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.ServiceBrokerEnum.dll">
+      <publishTime>04/20/2015 18:44:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.Smo.dll">
+      <publishTime>08/13/2021 16:24:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.SmoExtended.dll">
+      <publishTime>08/13/2021 16:24:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.SqlClrProvider.dll">
+      <publishTime>08/13/2021 16:24:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.SqlEnum.dll">
+      <publishTime>08/13/2021 16:24:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>08/13/2021 16:24:20</publishTime>
+    </File>
+    <File Include="bin/MinvoiceLib.dll">
+      <publishTime>08/13/2021 16:24:08</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/13/2021 16:24:21</publishTime>
+    </File>
+    <File Include="bin/Npgsql.dll">
+      <publishTime>08/13/2021 16:24:21</publishTime>
+    </File>
+    <File Include="bin/Npgsql.pdb">
+      <publishTime>08/13/2021 16:24:21</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>08/13/2021 16:24:21</publishTime>
+    </File>
+    <File Include="bin/NPOI.OOXML.dll">
+      <publishTime>08/13/2021 16:24:21</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXml4Net.dll">
+      <publishTime>08/13/2021 16:24:21</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXmlFormats.dll">
+      <publishTime>08/13/2021 16:24:21</publishTime>
+    </File>
+    <File Include="bin/OSExtensions.dll">
+      <publishTime>08/13/2021 16:24:19</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>08/13/2021 16:24:21</publishTime>
+    </File>
+    <File Include="bin/Pkcs11Interop.dll">
+      <publishTime>08/13/2021 16:24:08</publishTime>
+    </File>
+    <File Include="bin/PkiTokenManager.dll">
+      <publishTime>08/13/2021 16:24:08</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:29:55</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Office.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Pdf.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.PivotGrid.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Printing.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:00</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.RichEdit.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Sparkline.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:02</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Utils.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:02</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraBars.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:05</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraCharts.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:05</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraEditors.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v16.1.Core.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraLayout.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraPrinting.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraReports.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:07</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraTreeList.v16.1.resources.dll">
+      <publishTime>11/12/2021 16:30:10</publishTime>
+    </File>
+    <File Include="bin/SautinSoft.PdfFocus.dll">
+      <publishTime>08/13/2021 16:24:25</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>08/13/2021 16:24:21</publishTime>
+    </File>
+    <File Include="bin/System.Collections.Immutable.dll">
+      <publishTime>08/13/2021 16:24:21</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.Annotations.dll">
+      <publishTime>08/13/2021 16:24:22</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>08/13/2021 16:24:23</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>12/03/2021 01:49:02</publishTime>
+    </File>
+    <File Include="bin/System.IO.FileSystem.Primitives.dll">
+      <publishTime>08/13/2021 16:24:23</publishTime>
+    </File>
+    <File Include="bin/System.IO.Packaging.dll">
+      <publishTime>08/13/2021 16:24:23</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>08/13/2021 16:24:24</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>09/07/2018 10:59:08</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>08/13/2021 16:24:18</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>11/05/2015 20:36:48</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>08/13/2021 16:24:24</publishTime>
+    </File>
+    <File Include="bin/System.Reflection.Metadata.dll">
+      <publishTime>08/13/2021 16:24:24</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>08/13/2021 16:24:24</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 04:57:14</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 04:57:08</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 04:57:18</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 04:57:18</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Dataflow.dll">
+      <publishTime>08/13/2021 16:24:24</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Extensions.dll">
+      <publishTime>08/13/2021 16:24:24</publishTime>
+    </File>
+    <File Include="bin/System.ValueTuple.dll">
+      <publishTime>08/13/2021 16:24:25</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>08/13/2021 16:24:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>08/13/2021 16:24:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>08/13/2021 16:24:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>08/13/2021 16:24:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>08/13/2021 16:24:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>08/13/2021 16:24:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>08/13/2021 16:24:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>08/13/2021 16:24:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>08/13/2021 16:24:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>08/13/2021 16:24:18</publishTime>
+    </File>
+    <File Include="bin/VACOMLIB.dll">
+      <publishTime>08/13/2021 16:24:08</publishTime>
+    </File>
+    <File Include="bin/x86/KernelTraceControl.dll">
+      <publishTime>08/13/2021 16:24:19</publishTime>
+    </File>
+    <File Include="bin/x86/KernelTraceControl.Win61.dll">
+      <publishTime>08/13/2021 16:24:19</publishTime>
+    </File>
+    <File Include="bin/x86/msdia140.dll">
+      <publishTime>08/13/2021 16:24:19</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/report/01TB_KTDL_TH2_KHL.repx">
+      <publishTime>01/12/2022 00:37:17</publishTime>
+    </File>
+    <File Include="Content/report/0303841523_1C21TBK.repx">
+      <publishTime>11/22/2021 15:03:44</publishTime>
+    </File>
+    <File Include="Content/report/bc_bkmv.repx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/report/BienBanXoaBo.repx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/report/INCT_BBDC.repx">
+      <publishTime>12/06/2021 19:10:48</publishTime>
+    </File>
+    <File Include="Content/report/INCT_BBDC78.repx">
+      <publishTime>12/06/2021 19:12:53</publishTime>
+    </File>
+    <File Include="Content/report/INCT_BBDC_DD.repx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/report/INCT_BBDC_GT.repx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/report/INCT_BBHUY.repx">
+      <publishTime>12/06/2021 19:10:48</publishTime>
+    </File>
+    <File Include="Content/report/INCT_BBHUY78.repx">
+      <publishTime>12/06/2021 19:12:53</publishTime>
+    </File>
+    <File Include="Content/report/INCT_BBTH.repx">
+      <publishTime>12/06/2021 19:10:48</publishTime>
+    </File>
+    <File Include="Content/report/INCT_BBTH78.repx">
+      <publishTime>12/06/2021 19:12:53</publishTime>
+    </File>
+    <File Include="Content/report/INCT_BBTT.repx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/report/InvoiceTemplate.repx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/report/LicenseInfo.repx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/report/Nhan excel hoa don.xlsx">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/Scripts/jquery-1.6.4.min.js">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/Scripts/jquery.signalR-2.2.3.min.js">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Content/Test.xml">
+      <publishTime>01/11/2022 19:00:32</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/13/2021 16:24:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/13/2021 16:24:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/13/2021 16:24:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/13/2021 16:24:09</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/10/2022 15:40:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/MobiPhoneSmsService/InvoiceApi.MobiPhoneSmsService.CheckamountResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/MobiPhoneSmsService/InvoiceApi.MobiPhoneSmsService.DeductionResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/MobiPhoneSmsService/InvoiceApi.MobiPhoneSmsService.DepositResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/MobiPhoneSmsService/InvoiceApi.MobiPhoneSmsService.sendResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.approveCertificateForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.assignCertificateForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.authorizeCounterSigningForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.authorizeHashSigningForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.authorizeSingletonSigningForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.changePasscodeForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.declineCertificateForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.disableCertificateForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.downloadFileForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.enableCertificateForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.forgetPasscodeForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.getCertificateDetailForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.getReceiptForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.getSignatureValueForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.getSignedFileForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.getVersionResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.prepareCertificateForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.prepareChangeCertificateForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.prepareFileForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.prepareHashSigningForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.prepareRenewCertificateForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.prepareRevokeCertificateForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.regenerateAuthorisationCodeForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.regenerateAuthorizationCodeForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.setCertificateDetailForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.signCloudResp.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.uploadFileForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Service References/SignCloudService/InvoiceApi.SignCloudService.verifySignedFileForSignCloudResponse.datasource">
+      <publishTime>08/13/2021 16:24:05</publishTime>
+    </File>
+    <File Include="Web.config">
+<<<<<<< HEAD
+      <publishTime>01/10/2022 16:02:47</publishTime>
+=======
+      <publishTime>12/20/2021 19:58:04</publishTime>
+>>>>>>> 300753e329f883a14857c1f52f91ad1f4725feb8
+    </File>
+  </ItemGroup>
+</Project>

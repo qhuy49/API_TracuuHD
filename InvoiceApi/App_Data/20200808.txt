@@ -1,0 +1,450 @@
+********** 08/08/2020 11:40:48 AM **********
+Exception Type: System.Exception
+Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Source: /System/GetAllDmDvcs
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.ExecuteQuery(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 51
+   at InvoiceApi.Controllers.SystemController.GetAllDmDvcs() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 196
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 11:40:48 AM **********
+Exception Type: System.Exception
+Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Source: /System/GetAllDmDvcs
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.ExecuteQuery(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 51
+   at InvoiceApi.Controllers.SystemController.GetAllDmDvcs() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 196
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 11:40:48 AM **********
+Exception Type: System.Exception
+Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Source: /System/GetAllDmDvcs
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.ExecuteQuery(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 51
+   at InvoiceApi.Controllers.SystemController.GetAllDmDvcs() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 196
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 11:40:50 AM **********
+Exception Type: System.IO.IOException
+Exception: The process cannot access the file 'F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\App_Data\20200808.txt' because it is being used by another process.
+Source: /System/GetAllDmDvcs
+Stack Trace: 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at MinvoiceLib.Util.ExceptionUtility.LogException(Exception exc, String source) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Util\ExceptionUtility.cs:line 31
+   at MinvoiceLib.Util.UnhandledExceptionLogger.Log(ExceptionLoggerContext context) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Util\UnhandledExceptionLogger.cs:line 13
+   at System.Web.Http.ExceptionHandling.ExceptionLogger.LogAsync(ExceptionLoggerContext context, CancellationToken cancellationToken)
+   at System.Web.Http.ExceptionHandling.ExceptionLogger.System.Web.Http.ExceptionHandling.IExceptionLogger.LogAsync(ExceptionLoggerContext context, CancellationToken cancellationToken)
+   at System.Web.Http.ExceptionHandling.CompositeExceptionLogger.LogAsync(ExceptionLoggerContext context, CancellationToken cancellationToken)
+   at System.Web.Http.ExceptionHandling.ExceptionLoggerExtensions.LogAsync(IExceptionLogger logger, ExceptionContext context, CancellationToken cancellationToken)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+
+********** 08/08/2020 15:01:09 PM **********
+Exception Type: System.Exception
+Exception: Incorrect syntax near 'sproc_dmdvcs_INSERT'.
+Source: /System/Save
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.GetError(String err_code) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1605
+   at MinvoiceLib.Services.SystemService.<Save>d__19.MoveNext() in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1583
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<Save>d__31.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 318
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 15:02:16 PM **********
+Exception Type: System.Exception
+Exception: Incorrect syntax near 'sproc_dmdvcs_INSERT'.
+Source: /System/Save
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.GetError(String err_code) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1605
+   at MinvoiceLib.Services.SystemService.<Save>d__19.MoveNext() in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1583
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<Save>d__31.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 318
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 15:04:35 PM **********
+Exception Type: System.Exception
+Exception: Incorrect syntax near 'sproc_dmdvcs_INSERT'.
+Source: /System/Save
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.GetError(String err_code) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1605
+   at MinvoiceLib.Services.SystemService.<Save>d__19.MoveNext() in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1583
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<Save>d__31.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 318
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 15:07:13 PM **********
+Exception Type: System.Exception
+Exception: Incorrect syntax near 'sproc_dmdvcs_INSERT'.
+Source: /System/Save
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.GetError(String err_code) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1605
+   at MinvoiceLib.Services.SystemService.<Save>d__19.MoveNext() in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1583
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<Save>d__31.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 318
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 15:08:04 PM **********
+Exception Type: System.Exception
+Exception: Incorrect syntax near 'sproc_dmdvcs_INSERT'.
+Source: /System/Save
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.GetError(String err_code) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1605
+   at MinvoiceLib.Services.SystemService.<Save>d__19.MoveNext() in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1583
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<Save>d__31.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 318
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 15:08:29 PM **********
+Exception Type: System.Exception
+Exception: Incorrect syntax near 'sproc_dmdvcs_INSERT'.
+Source: /System/Save
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.GetError(String err_code) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1605
+   at MinvoiceLib.Services.SystemService.<Save>d__19.MoveNext() in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1583
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<Save>d__31.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 318
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 15:09:46 PM **********
+Exception Type: System.Exception
+Exception: Incorrect syntax near 'sproc_dmdvcs_INSERT'.
+Source: /System/Save
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.GetError(String err_code) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1605
+   at MinvoiceLib.Services.SystemService.<Save>d__19.MoveNext() in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1583
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<Save>d__31.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 318
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 15:11:02 PM **********
+Exception Type: System.Exception
+Exception: Incorrect syntax near 'sproc_dmdvcs_INSERT'.
+Source: /System/Save
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.GetError(String err_code) in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1605
+   at MinvoiceLib.Services.SystemService.<Save>d__19.MoveNext() in F:\Project M-Invoice\Invoice\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1583
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<Save>d__31.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 318
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 15:12:23 PM **********
+Exception Type: System.Exception
+Exception: Incorrect syntax near 'sproc_dmdvcs_UPDATE'.
+Source: /System/Save
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.GetError(String err_code) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1605
+   at MinvoiceLib.Services.SystemService.<Save>d__19.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1583
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<Save>d__31.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 318
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 08/08/2020 15:58:23 PM **********
+Exception Type: System.Exception
+Exception: Incorrect syntax near 'sproc_dmdvcs_UPDATE'.
+Source: /System/Save
+Stack Trace: 
+   at MinvoiceLib.Services.NopDbContext.ExecuteCmd(String sql) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\NopDbContext.cs:line 247
+   at MinvoiceLib.Services.SystemService.GetError(String err_code) in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1605
+   at MinvoiceLib.Services.SystemService.<Save>d__19.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceLib\MinvoiceLib\MinvoiceLib\Services\SystemService.cs:line 1583
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at InvoiceApi.Controllers.SystemController.<Save>d__31.MoveNext() in F:\Project M-Invoice\Invoice_68_SQL\A API_VER2\MinvoiceApi\InvoiceApi\Controllers\SystemController.cs:line 318
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://api.esigncloud.mobileid.vn/" targetNamespace="http://api.esigncloud.mobileid.vn/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="approveCertificateForSignCloud" type="tns:approveCertificateForSignCloud" />
+  <xs:element name="approveCertificateForSignCloudResponse" type="tns:approveCertificateForSignCloudResponse" />
+  <xs:element name="assignCertificateForSignCloud" type="tns:assignCertificateForSignCloud" />
+  <xs:element name="assignCertificateForSignCloudResponse" type="tns:assignCertificateForSignCloudResponse" />
+  <xs:element name="authorizeCounterSigningForSignCloud" type="tns:authorizeCounterSigningForSignCloud" />
+  <xs:element name="authorizeCounterSigningForSignCloudResponse" type="tns:authorizeCounterSigningForSignCloudResponse" />
+  <xs:element name="authorizeHashSigningForSignCloud" type="tns:authorizeHashSigningForSignCloud" />
+  <xs:element name="authorizeHashSigningForSignCloudResponse" type="tns:authorizeHashSigningForSignCloudResponse" />
+  <xs:element name="authorizeSingletonSigningForSignCloud" type="tns:authorizeSingletonSigningForSignCloud" />
+  <xs:element name="authorizeSingletonSigningForSignCloudResponse" type="tns:authorizeSingletonSigningForSignCloudResponse" />
+  <xs:element name="changePasscodeForSignCloud" type="tns:changePasscodeForSignCloud" />
+  <xs:element name="changePasscodeForSignCloudResponse" type="tns:changePasscodeForSignCloudResponse" />
+  <xs:element name="declineCertificateForSignCloud" type="tns:declineCertificateForSignCloud" />
+  <xs:element name="declineCertificateForSignCloudResponse" type="tns:declineCertificateForSignCloudResponse" />
+  <xs:element name="disableCertificateForSignCloud" type="tns:disableCertificateForSignCloud" />
+  <xs:element name="disableCertificateForSignCloudResponse" type="tns:disableCertificateForSignCloudResponse" />
+  <xs:element name="downloadFileForSignCloud" type="tns:downloadFileForSignCloud" />
+  <xs:element name="downloadFileForSignCloudResponse" type="tns:downloadFileForSignCloudResponse" />
+  <xs:element name="enableCertificateForSignCloud" type="tns:enableCertificateForSignCloud" />
+  <xs:element name="enableCertificateForSignCloudResponse" type="tns:enableCertificateForSignCloudResponse" />
+  <xs:element name="forgetPasscodeForSignCloud" type="tns:forgetPasscodeForSignCloud" />
+  <xs:element name="forgetPasscodeForSignCloudResponse" type="tns:forgetPasscodeForSignCloudResponse" />
+  <xs:element name="getCertificateDetailForSignCloud" type="tns:getCertificateDetailForSignCloud" />
+  <xs:element name="getCertificateDetailForSignCloudResponse" type="tns:getCertificateDetailForSignCloudResponse" />
+  <xs:element name="getReceiptForSignCloud" type="tns:getReceiptForSignCloud" />
+  <xs:element name="getReceiptForSignCloudResponse" type="tns:getReceiptForSignCloudResponse" />
+  <xs:element name="getSignatureValueForSignCloud" type="tns:getSignatureValueForSignCloud" />
+  <xs:element name="getSignatureValueForSignCloudResponse" type="tns:getSignatureValueForSignCloudResponse" />
+  <xs:element name="getSignedFileForSignCloud" type="tns:getSignedFileForSignCloud" />
+  <xs:element name="getSignedFileForSignCloudResponse" type="tns:getSignedFileForSignCloudResponse" />
+  <xs:element name="getVersion" type="tns:getVersion" />
+  <xs:element name="getVersionResponse" type="tns:getVersionResponse" />
+  <xs:element name="prepareCertificateForSignCloud" type="tns:prepareCertificateForSignCloud" />
+  <xs:element name="prepareCertificateForSignCloudResponse" type="tns:prepareCertificateForSignCloudResponse" />
+  <xs:element name="prepareChangeCertificateForSignCloud" type="tns:prepareChangeCertificateForSignCloud" />
+  <xs:element name="prepareChangeCertificateForSignCloudResponse" type="tns:prepareChangeCertificateForSignCloudResponse" />
+  <xs:element name="prepareFileForSignCloud" type="tns:prepareFileForSignCloud" />
+  <xs:element name="prepareFileForSignCloudResponse" type="tns:prepareFileForSignCloudResponse" />
+  <xs:element name="prepareHashSigningForSignCloud" type="tns:prepareHashSigningForSignCloud" />
+  <xs:element name="prepareHashSigningForSignCloudResponse" type="tns:prepareHashSigningForSignCloudResponse" />
+  <xs:element name="prepareRenewCertificateForSignCloud" type="tns:prepareRenewCertificateForSignCloud" />
+  <xs:element name="prepareRenewCertificateForSignCloudResponse" type="tns:prepareRenewCertificateForSignCloudResponse" />
+  <xs:element name="prepareRevokeCertificateForSignCloud" type="tns:prepareRevokeCertificateForSignCloud" />
+  <xs:element name="prepareRevokeCertificateForSignCloudResponse" type="tns:prepareRevokeCertificateForSignCloudResponse" />
+  <xs:element name="regenerateAuthorisationCodeForSignCloud" type="tns:regenerateAuthorisationCodeForSignCloud" />
+  <xs:element name="regenerateAuthorisationCodeForSignCloudResponse" type="tns:regenerateAuthorisationCodeForSignCloudResponse" />
+  <xs:element name="regenerateAuthorizationCodeForSignCloud" type="tns:regenerateAuthorizationCodeForSignCloud" />
+  <xs:element name="regenerateAuthorizationCodeForSignCloudResponse" type="tns:regenerateAuthorizationCodeForSignCloudResponse" />
+  <xs:element name="setCertificateDetailForSignCloud" type="tns:setCertificateDetailForSignCloud" />
+  <xs:element name="setCertificateDetailForSignCloudResponse" type="tns:setCertificateDetailForSignCloudResponse" />
+  <xs:element name="uploadFileForSignCloud" type="tns:uploadFileForSignCloud" />
+  <xs:element name="uploadFileForSignCloudResponse" type="tns:uploadFileForSignCloudResponse" />
+  <xs:element name="verifySignedFileForSignCloud" type="tns:verifySignedFileForSignCloud" />
+  <xs:element name="verifySignedFileForSignCloudResponse" type="tns:verifySignedFileForSignCloudResponse" />
+  <xs:complexType name="getReceiptForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="signCloudReq">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="agreementDetails" type="tns:agreementDetails" />
+      <xs:element minOccurs="0" name="agreementUUID" type="xs:string" />
+      <xs:element minOccurs="0" name="authMode" type="xs:string" />
+      <xs:element minOccurs="0" name="authorizeCode" type="xs:string" />
+      <xs:element name="authorizeMethod" type="xs:int" />
+      <xs:element minOccurs="0" name="billCode" type="xs:string" />
+      <xs:element minOccurs="0" name="certificate" type="xs:string" />
+      <xs:element minOccurs="0" name="certificateProfile" type="xs:string" />
+      <xs:element name="certificateRequired" type="xs:boolean" />
+      <xs:element minOccurs="0" name="credentialData" type="tns:credentialData" />
+      <xs:element name="csrRequired" type="xs:boolean" />
+      <xs:element minOccurs="0" name="currentPasscode" type="xs:string" />
+      <xs:element minOccurs="0" name="downloadingFileUUID" type="xs:string" />
+      <xs:element minOccurs="0" name="email" type="xs:string" />
+      <xs:element minOccurs="0" name="encryption" type="xs:string" />
+      <xs:element minOccurs="0" name="hardwareInfo" type="xs:string" />
+      <xs:element minOccurs="0" name="hash" type="xs:string" />
+      <xs:element minOccurs="0" name="hashAlgorithm" type="xs:string" />
+      <xs:element name="keepCertificateSerialNumberEnabled" type="xs:boolean" />
+      <xs:element name="keepOldKeysEnabled" type="xs:boolean" />
+      <xs:element minOccurs="0" name="language" type="xs:string" />
+      <xs:element name="ltvEnabled" type="xs:boolean" />
+      <xs:element name="messagingMode" type="xs:int" />
+      <xs:element minOccurs="0" name="mimeType" type="xs:string" />
+      <xs:element minOccurs="0" name="mobileNo" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="multipleSigningFileData" nillable="true" type="tns:multipleSigningFileData" />
+      <xs:element minOccurs="0" name="newPasscode" type="xs:string" />
+      <xs:element name="noPadding" type="xs:boolean" />
+      <xs:element minOccurs="0" name="notificationSubject" type="xs:string" />
+      <xs:element minOccurs="0" name="notificationTemplate" type="xs:string" />
+      <xs:element name="p2pEnabled" type="xs:boolean" />
+      <xs:element name="postbackEnabled" type="xs:boolean" />
+      <xs:element minOccurs="0" name="relyingParty" type="xs:string" />
+      <xs:element minOccurs="0" name="relyingPartyBillCode" type="xs:string" />
+      <xs:element name="revokeOldCertificateEnabled" type="xs:boolean" />
+      <xs:element minOccurs="0" name="sharedAgreementUUID" type="xs:string" />
+      <xs:element name="sharedMode" type="xs:int" />
+      <xs:element minOccurs="0" name="sharedRelyingParty" type="xs:string" />
+      <xs:element minOccurs="0" name="signCloudMetaData" type="tns:signCloudMetaData" />
+      <xs:element name="signerInfoConstraintEnabled" type="xs:boolean" />
+      <xs:element minOccurs="0" name="signingFileData" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="signingFileName" type="xs:string" />
+      <xs:element minOccurs="0" name="signingFileUUID" type="xs:string" />
+      <xs:element name="timestampEnabled" type="xs:boolean" />
+      <xs:element minOccurs="0" name="uploadingFileData" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="xmlDocument" type="xs:string" />
+      <xs:element minOccurs="0" name="xslTemplate" type="xs:string" />
+      <xs:element minOccurs="0" name="xslTemplateUUID" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="agreementDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applicationForm" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="authorizeLetter" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="budgetID" type="xs:string" />
+      <xs:element minOccurs="0" name="businessLicense" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="citizenID" type="xs:string" />
+      <xs:element minOccurs="0" name="country" type="xs:string" />
+      <xs:element minOccurs="0" name="email" type="xs:string" />
+      <xs:element minOccurs="0" name="location" type="xs:string" />
+      <xs:element minOccurs="0" name="organization" type="xs:string" />
+      <xs:element minOccurs="0" name="organizationUnit" type="xs:string" />
+      <xs:element minOccurs="0" name="passportID" type="xs:string" />
+      <xs:element minOccurs="0" name="personalID" type="xs:string" />
+      <xs:element minOccurs="0" name="personalName" type="xs:string" />
+      <xs:element minOccurs="0" name="photoActivityDeclaration" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="photoAuthorizeDelegate" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="photoIDCard" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="requestForm" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="stateOrProvince" type="xs:string" />
+      <xs:element minOccurs="0" name="taxID" type="xs:string" />
+      <xs:element minOccurs="0" name="telephoneNumber" type="xs:string" />
+      <xs:element minOccurs="0" name="title" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="credentialData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="password" type="xs:string" />
+      <xs:element minOccurs="0" name="pkcs1Signature" type="xs:string" />
+      <xs:element minOccurs="0" name="signature" type="xs:string" />
+      <xs:element minOccurs="0" name="timestamp" type="xs:string" />
+      <xs:element minOccurs="0" name="username" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="multipleSigningFileData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="hash" type="xs:string" />
+      <xs:element minOccurs="0" name="mimeType" type="xs:string" />
+      <xs:element minOccurs="0" name="signCloudMetaData" type="tns:signCloudMetaData" />
+      <xs:element minOccurs="0" name="signingFileData" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="signingFileName" type="xs:string" />
+      <xs:element minOccurs="0" name="xmlDocument" type="xs:string" />
+      <xs:element minOccurs="0" name="xslTemplate" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="signCloudMetaData">
+    <xs:sequence>
+      <xs:element name="counterSigning">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="entry">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element minOccurs="0" name="key" type="xs:string" />
+                  <xs:element minOccurs="0" name="value" type="xs:string" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="singletonSigning">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="entry">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element minOccurs="0" name="key" type="xs:string" />
+                  <xs:element minOccurs="0" name="value" type="xs:string" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getReceiptForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="signCloudResp">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="authModeSupported" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="authorizationMethodsEnabled" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="authorizeCredential" type="xs:string" />
+      <xs:element name="authorizeMethod" type="xs:int" />
+      <xs:element minOccurs="0" name="billCode" type="xs:string" />
+      <xs:element minOccurs="0" name="certificate" type="xs:string" />
+      <xs:element minOccurs="0" name="certificateDN" type="xs:string" />
+      <xs:element minOccurs="0" name="certificateSerialNumber" type="xs:string" />
+      <xs:element name="certificateStateID" type="xs:int" />
+      <xs:element minOccurs="0" name="certificateThumbprint" type="xs:string" />
+      <xs:element name="credentialExpireIn" type="xs:int" />
+      <xs:element minOccurs="0" name="csr" type="xs:string" />
+      <xs:element minOccurs="0" name="dmsMetaData" type="xs:string" />
+      <xs:element minOccurs="0" name="downloadedFileData" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="downloadedFileUUID" type="xs:string" />
+      <xs:element minOccurs="0" name="issuerDN" type="xs:string" />
+      <xs:element name="logInstance" type="xs:int" />
+      <xs:element minOccurs="0" name="mimeType" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="multipleSignedFileData" nillable="true" type="tns:multipleSignedFileData" />
+      <xs:element minOccurs="0" name="notificationMessage" type="xs:string" />
+      <xs:element minOccurs="0" name="notificationSubject" type="xs:string" />
+      <xs:element minOccurs="0" name="receipt" type="tns:receipt" />
+      <xs:element name="remainingCounter" type="xs:int" />
+      <xs:element name="responseCode" type="xs:int" />
+      <xs:element minOccurs="0" name="responseMessage" type="xs:string" />
+      <xs:element minOccurs="0" name="signatureValue" type="xs:string" />
+      <xs:element minOccurs="0" name="signedFileData" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="signedFileName" type="xs:string" />
+      <xs:element minOccurs="0" name="signedFileUUID" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="signerInfo" nillable="true" type="tns:signerInfo" />
+      <xs:element minOccurs="0" name="timestamp" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="uploadedFileUUID" type="xs:string" />
+      <xs:element minOccurs="0" name="validFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="validTo" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="multipleSignedFileData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dmsMetaData" type="xs:string" />
+      <xs:element minOccurs="0" name="mimeType" type="xs:string" />
+      <xs:element minOccurs="0" name="signatureValue" type="xs:string" />
+      <xs:element minOccurs="0" name="signedFileData" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="signedFileName" type="xs:string" />
+      <xs:element minOccurs="0" name="signedFileUUID" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="receipt">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="billCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="multipleSignedFileData" nillable="true" type="tns:multipleSignedFileData" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="multipleSigningFileData" nillable="true" type="tns:multipleSigningFileData" />
+      <xs:element minOccurs="0" name="timestamp" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="signerInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="certificate" type="xs:string" />
+      <xs:element minOccurs="0" name="certificateDN" type="xs:string" />
+      <xs:element minOccurs="0" name="certificateSerialNumber" type="xs:string" />
+      <xs:element minOccurs="0" name="certificateThumbprint" type="xs:string" />
+      <xs:element minOccurs="0" name="issuerDN" type="xs:string" />
+      <xs:element name="revocationStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="revocationTime" type="xs:dateTime" />
+      <xs:element name="signatureStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="signingTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="validFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="validTo" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="regenerateAuthorizationCodeForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="regenerateAuthorizationCodeForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getVersion">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getVersionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="enableCertificateForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="enableCertificateForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="regenerateAuthorisationCodeForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="regenerateAuthorisationCodeForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareHashSigningForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareHashSigningForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setCertificateDetailForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setCertificateDetailForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareRenewCertificateForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareRenewCertificateForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareChangeCertificateForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareChangeCertificateForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="authorizeHashSigningForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="authorizeHashSigningForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareFileForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareFileForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCertificateDetailForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCertificateDetailForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSignatureValueForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSignatureValueForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareCertificateForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareCertificateForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="declineCertificateForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="declineCertificateForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="approveCertificateForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="approveCertificateForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="uploadFileForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="uploadFileForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="forgetPasscodeForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="forgetPasscodeForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="verifySignedFileForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="verifySignedFileForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="disableCertificateForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="disableCertificateForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSignedFileForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSignedFileForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareRevokeCertificateForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prepareRevokeCertificateForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="changePasscodeForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="changePasscodeForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="assignCertificateForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="assignCertificateForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="authorizeSingletonSigningForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="authorizeSingletonSigningForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="downloadFileForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="downloadFileForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="authorizeCounterSigningForSignCloud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signCloudReq" type="tns:signCloudReq" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="authorizeCounterSigningForSignCloudResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:signCloudResp" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

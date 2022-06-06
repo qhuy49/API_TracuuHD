@@ -1,0 +1,165 @@
+﻿<TDiep>
+  <TTChung>
+    <PBan>2.0.0</PBan>
+    <MNGui>TCT</MNGui>
+    <MNNhan>V0106026495</MNNhan>
+    <MLTDiep>202</MLTDiep>
+    <MTDiep>TCT5C8C0AD2E15B4D76AE14B1D1B3D2D47F</MTDiep>
+    <MTDTChieu>V0106026495B8D8D11E9EB64807839619882E886C55</MTDTChieu>
+    <MST>2700901349</MST>
+    <SLuong>1</SLuong>
+  </TTChung>
+  <DLieu>
+    <HDon>
+      <DLHDon Id="c8c48d2f-48f9-43bc-a959-005933c574ea">
+        <TTChung>
+          <PBan>2.0.0</PBan>
+          <THDon>Hóa đơn giá trị gia tăng</THDon>
+          <KHMSHDon>1</KHMSHDon>
+          <KHHDon>C22TAP</KHHDon>
+          <SHDon>5</SHDon>
+          <NLap>2022-04-06</NLap>
+          <DVTTe>VND</DVTTe>
+          <HDDCKPTQuan/>
+          <HTTToan>TM/CK</HTTToan>
+          <MSTTCGP>0106026495</MSTTCGP>
+          <TGia>0</TGia>
+        </TTChung>
+        <NDHDon>
+          <NBan>
+            <Ten>CÔNG TY CỔ PHẦN ANPHA Q VIỆT NAM</Ten>
+            <MST>2700901349</MST>
+            <DChi>Số nhà M7, Tổ 2, Thôn Đa Sĩ, , Phường Kiến Hưng, Quận Hà Đông, Thành Phố Hà Nội, Việt Nam</DChi>
+            <SDThoai/>
+            <DCTDTu/>
+          </NBan>
+          <NMua>
+            <Ten>Khách lẻ không lấy hóa đơn</Ten>
+            <HVTNMHang>Khách lẻ không lấy hóa đơn</HVTNMHang>
+          </NMua>
+          <DSHHDVu>
+            <HHDVu>
+              <TChat>1</TChat>
+              <STT>1</STT>
+              <MHHDVu>THAMT02</MHHDVu>
+              <THHDVu>Yoga mat</THHDVu>
+              <DVTinh>Cái</DVTinh>
+              <SLuong>15</SLuong>
+              <DGia>105000</DGia>
+              <TLCKhau>0</TLCKhau>
+              <STCKhau>0</STCKhau>
+              <ThTien>1575000</ThTien>
+              <TSuat>8%</TSuat>
+            </HHDVu>
+            <HHDVu>
+              <TChat>1</TChat>
+              <STT>2</STT>
+              <MHHDVu>TUIDU03</MHHDVu>
+              <THHDVu>Yoga mat's bag</THHDVu>
+              <DVTinh>Cái</DVTinh>
+              <SLuong>35</SLuong>
+              <DGia>55000</DGia>
+              <TLCKhau>0</TLCKhau>
+              <STCKhau>0</STCKhau>
+              <ThTien>1925000</ThTien>
+              <TSuat>8%</TSuat>
+            </HHDVu>
+          </DSHHDVu>
+          <TToan>
+            <THTTLTSuat>
+              <LTSuat>
+                <TSuat>8%</TSuat>
+                <ThTien>3500000</ThTien>
+                <TThue>280000</TThue>
+              </LTSuat>
+            </THTTLTSuat>
+            <TgTCThue>3500000</TgTCThue>
+            <TgTThue>280000</TgTThue>
+            <TTCKTMai>0</TTCKTMai>
+            <TgTTTBSo>3780000</TgTTTBSo>
+            <TgTTTBChu>Ba triệu bảy trăm tám mươi nghìn đồng</TgTTTBChu>
+          </TToan>
+        </NDHDon>
+        <TTKhac>
+          <TTin>
+            <TTruong>Số bảo mật</TTruong>
+            <KDLieu>string</KDLieu>
+            <DLieu>C8C48D2F05933C57</DLieu>
+          </TTin>
+        </TTKhac>
+      </DLHDon>
+      <MCCQT Id="Id-bf04abd981ca44889817d5ecfbec1667">00F986424DA2E14B2E914FFE2BD5DE947C</MCCQT>
+      <DSCKS>
+        <NBan>
+          <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <SignedInfo>
+              <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+              <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+              <Reference URI="#c8c48d2f-48f9-43bc-a959-005933c574ea">
+                <Transforms>
+                  <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                  <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <DigestValue>aG4uhxu6K+2YZrONOQkUNzj1TsA=</DigestValue>
+              </Reference>
+              <Reference URI="#signtime">
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <DigestValue>U9nCJr+zXutKq5ITs5BY5PQxt1I=</DigestValue>
+              </Reference>
+            </SignedInfo>
+            <SignatureValue>T4W86byQ6Gyowhbt3lobNnCzzyzGpOAqmamrQqDOV/3nwDx7wZUtj2l5/j3hOCrnHqf0tllSbLjUD7K/ZXSw3UC0R0rMA9g9TfJbBxkml3qzovB71ZhP+JkNJ28PFSEaHyKLGZ3TtY5HO7ydJDRbxdqZzytYr1scm5456sEZT5M=</SignatureValue>
+            <KeyInfo>
+              <X509Data>
+                <X509SubjectName>OID.0.9.2342.19200300.100.1.1=MST:2700901349, CN=CÔNG TY CỔ PHẦN ANPHA Q VIỆT NAM, C=VN</X509SubjectName>
+                <X509Certificate>MIIEfzCCA2egAwIBAgIQVAEBCeI4ZZL+7MAommF6SzANBgkqhkiG9w0BAQUFADBgMQswCQYDVQQGEwJWTjE6MDgGA1UECgwxQ8OUTkcgVFkgQ+G7lCBQSOG6pk4gVknhu4ROIFRIw5RORyBORVdURUwtVEVMRUNPTTEVMBMGA1UEAxMMTkVXVEVMLUNBIHYyMB4XDTIwMDIyODA3NDgyNVoXDTIyMTAyNTAxMTgyN1owXzELMAkGA1UEBhMCVk4xMDAuBgNVBAMMJ0PDlE5HIFRZIEPhu5QgUEjhuqZOIEFOUEhBIFEgVknhu4ZUIE5BTTEeMBwGCgmSJomT8ixkAQEMDk1TVDoyNzAwOTAxMzQ5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCby3YVmvmjbecfknFv4RuWrItYc42iMgTlMqF0RvXvaN8ALVtgvak0iOdCpKyDzFpDzquaZBfRvIqe6GhaAaK4IJtA0+4X7RAJf116T6N8/u8RcMAgNwdoqRszRKLsS6lN10wz/07hJCgcXGWfAQ6UCVYsX7Pkyv5p3CSUa3dcPwIDAQABo4IBuDCCAbQwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSC8PEh7/5OWDRxb/mMQg8/Id1VmzBrBggrBgEFBQcBAQRfMF0wLgYIKwYBBQUHMAKGImh0dHA6Ly9wdWIyLm5ld2NhLnZuL25ld3RlbC1jYS5jcnQwKwYIKwYBBQUHMAGGH2h0dHA6Ly9vY3NwMi5uZXdjYS52bi9yZXNwb25kZXIwIQYDVR0RBBowGIEWaG9hbmdnaWEwNzA3QGdtYWlsLmNvbTBZBgNVHSAEUjBQME4GDCsGAQQBge0DAQkDATA+MCMGCCsGAQUFBwIBFhdodHRwOi8vcHViLm5ld2NhLnZuL3JwYTAXBggrBgEFBQcCAjALDAlPU19OZXdfM1kwNAYDVR0lBC0wKwYIKwYBBQUHAwIGCCsGAQUFBwMEBgorBgEEAYI3CgMMBgkqhkiG9y8BAQUwMwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2NybDIubmV3Y2Eudm4vbmV3dGVsLWNhLmNybDAdBgNVHQ4EFgQUWnv97bAZWxzi8LC5Ul2CRjtPqacwDgYDVR0PAQH/BAQDAgTwMA0GCSqGSIb3DQEBBQUAA4IBAQB3J3Fgj+tFOsNWYy9lDEXfkd9zPC0k7GmkY8VjCS/0u2DsL8NKH37oBFMeaxLo8t2L5L8AmNRuFk5W3ahWLUzPmJjQ5d+B3gGh/wjhDxcVzcMLD4pG33X4/SxAXRkRHmxhuD/C2ZhTW2DkcxkErAsWhDYQ0YELit1b18be5pzH8Yjzo+g1rMPR7rAxNFO84q2HMCnu3xGhK9/y1V9de/GmxYUl/okyf0vRRvlhh1LymErKX7LjyPIECV9IkOKSBVDznKxGTCHz23ld+2Juwh3Yf8tx95bkpmBhHw1AazS9IyF0mGHMOIP1uOI2zhGGPoV5tmgCDVAE56g0LFGI7Ock</X509Certificate>
+              </X509Data>
+            </KeyInfo>
+            <Object Id="signtime">
+              <SignatureProperties xmlns="">
+                <SignatureProperty Target="#signtime">
+                  <SigningTime>2022-04-06T09:29:16</SigningTime>
+                </SignatureProperty>
+              </SignatureProperties>
+            </Object>
+          </Signature>
+        </NBan>
+        <NMua/>
+        <CQT>
+          <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="Tct-0d1b3960167e45b0996e26a8ac0b2a64">
+            <SignedInfo>
+              <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+              <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+              <Reference URI="#c8c48d2f-48f9-43bc-a959-005933c574ea">
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>sR4JwFQ7LvLh5+gqkselFCgPjiXEN4ZdQ/5f2UHZjqs=</DigestValue>
+              </Reference>
+              <Reference URI="#SigningTime-efd9c7650ce44d36948fdd7f5adf6fb5">
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>1PvswYgv8jD1CDVoxuil+nVij+RVmyEqoffC2e6VZw8=</DigestValue>
+              </Reference>
+              <Reference URI="#Id-bf04abd981ca44889817d5ecfbec1667">
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>l3do99EvU3Pchm93/5xIt/7hDWUvVq2/xoZalVTyDmE=</DigestValue>
+              </Reference>
+            </SignedInfo>
+            <SignatureValue>jn1aFseU0jFPam0OfemxKg8mtCWR1XBWmxeiZArBDt6vp/O1PMmcXxm/RJxJsOGG0O7ZXerYnHd3r9Nodka8D1TD6qGq+GSpq6xilj4kpnUCS4u0s32ggjupNtCRjS7FHdCJ6hSdUJ+bYH0XFK7P+Xy1hXcw+ZOfX3+Jr75o+UlpfNeYdeJT/GZ+gCKiWolmesbyGyoMSWJOc0W6Gg0DPKS2pnoH7BoiQmAS2oDLnTveCNl35OBDUl02AGcS4fvmRZll6ZzyGuROm60TkYFSOYaHEhPbSfTCmsCXqoHH3FcFvmuADiYUeOecERAfi5ox0RQhpAHJk0H0G2Hix4yRmA==</SignatureValue>
+            <KeyInfo>
+              <X509Data>
+                <X509SubjectName>CN=TỔNG CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN</X509SubjectName>
+                <X509Certificate>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</X509Certificate>
+              </X509Data>
+            </KeyInfo>
+            <Object Id="SigningTime-efd9c7650ce44d36948fdd7f5adf6fb5">
+              <SignatureProperties>
+                <SignatureProperty Target="signatureProperties">
+                  <SigningTime>2022-04-06T09:29:16</SigningTime>
+                </SignatureProperty>
+              </SignatureProperties>
+            </Object>
+          </Signature>
+        </CQT>
+      </DSCKS>
+    </HDon>
+  </DLieu>
+</TDiep>

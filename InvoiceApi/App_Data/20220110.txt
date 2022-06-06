@@ -1,0 +1,23 @@
+********** 1/10/2022 12:45:10 AM **********
+Inner Exception Type: Autofac.Core.DependencyResolutionException
+Inner Exception: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'InvoiceApi.Controllers.TestController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'InvoiceApi.IService.ITestService testService' of constructor 'Void .ctor(InvoiceApi.IService.ITestService)'.
+Inner Source: Autofac
+Inner Stack Trace: 
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.Integration.WebApi.AutofacWebApiDependencyScope.GetService(Type serviceType)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.GetInstanceOrActivator(HttpRequestMessage request, Type controllerType, Func`1& activator)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+Exception Type: System.InvalidOperationException
+Exception: An error occurred when trying to create a controller of type 'TestController'. Make sure that the controller has a parameterless public constructor.
+Source: /test/inhoadon
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerActivator.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()
+

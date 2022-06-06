@@ -1,0 +1,275 @@
+********** 02/04/2021 4:15:33 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:15:40 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: /Report/bangkemuavao
+Stack Trace: 
+   at InvoiceApi.Services.ReportService.BangKeMuaVao(JObject model) in D:\M-Invoice\Code tool\Hoadondauvao\APIhoadondauvao\ApiNew22032021\hoadondauvaoAPI\InvoiceApi\Services\ReportService.cs:line 24
+   at InvoiceApi.Controllers.ReportController.BangKeMuaVao(JObject model) in D:\M-Invoice\Code tool\Hoadondauvao\APIhoadondauvao\ApiNew22032021\hoadondauvaoAPI\InvoiceApi\Controllers\ReportController.cs:line 24
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:16:15 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:17:09 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:18:28 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:21:22 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:28:41 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:33:06 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:34:15 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:35:38 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:36:40 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:37:53 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:56:01 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:56:26 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:58:47 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 4:59:31 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8&type=PDF
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 5:00:29 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 5:02:33 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 5:03:01 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
+********** 02/04/2021 5:03:30 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Multiple controller types were found that match the URL. This can happen if attribute routes on multiple controllers match the requested URL.
+
+The request has found the following matching controller types: 
+InvoiceApi.Controllers.InvoiceController
+InvoiceApi.Controllers.PrintController
+Source: /Invoice/Preview?id=E0E4ADC8-96A2-4EB1-A6EB-0C910D964DB8
+Stack Trace: 
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.GetDirectRouteController(IHttpRouteData routeData)
+   at System.Web.Http.Dispatcher.DefaultHttpControllerSelector.SelectController(HttpRequestMessage request)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+
